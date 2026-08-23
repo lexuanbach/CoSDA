@@ -1,0 +1,15 @@
+selector       Qwen32B (orig)        Qwen14B   Phi-3.5-mini
+Naive                   0.767          0.458          0.414
+AlpaGasus               0.890          0.538          0.425
+DEITA                   0.869          0.495          0.411
+CoSDA-EQ                0.836          0.538          0.406
+CoSDA-V2                0.904          0.556          0.417
+AlpaGasus+HR            0.845          0.518          0.403
+U+D control             0.849          0.557          0.426
+
+Judge agreement (orig vs Qwen14B): Spearman=+0.571  Pearson=+0.731
+   orig LC order: CoSDA-V2 > AlpaGasus > DEITA > U+D control > AlpaGasus+HR > CoSDA-EQ > Naive
+   Qwen14B LC order: U+D control > CoSDA-V2 > AlpaGasus > CoSDA-EQ > AlpaGasus+HR > DEITA > Naive
+Judge agreement (orig vs Phi-3.5-mini): Spearman=+0.464  Pearson=+0.290
+   orig LC order: CoSDA-V2 > AlpaGasus > DEITA > U+D control > AlpaGasus+HR > CoSDA-EQ > Naive
+   Phi-3.5-mini LC order: U+D control > AlpaGasus > CoSDA-V2 > Naive > DEITA > CoSDA-EQ > AlpaGasus+HR

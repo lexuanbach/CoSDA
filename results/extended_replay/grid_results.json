@@ -1,0 +1,450 @@
+[
+  {
+    "task": "news_topic_classification",
+    "lang": "amh",
+    "baseline": "naive",
+    "seed": 13,
+    "n_selected": 64,
+    "macro_f1": 0.3903418912339519
+  },
+  {
+    "task": "news_topic_classification",
+    "lang": "amh",
+    "baseline": "alpagasus_style",
+    "seed": 13,
+    "n_selected": 64,
+    "macro_f1": 0.30627705627705626
+  },
+  {
+    "task": "news_topic_classification",
+    "lang": "amh",
+    "baseline": "deita_style",
+    "seed": 13,
+    "n_selected": 64,
+    "macro_f1": 0.4057202331117668
+  },
+  {
+    "task": "news_topic_classification",
+    "lang": "amh",
+    "baseline": "cosda_equal_budget",
+    "seed": 13,
+    "n_selected": 64,
+    "macro_f1": 0.10504201680672269
+  },
+  {
+    "task": "news_topic_classification",
+    "lang": "amh",
+    "baseline": "cosda_rerank_v2",
+    "seed": 13,
+    "n_selected": 64,
+    "macro_f1": 0.4240141080395684
+  },
+  {
+    "task": "news_topic_classification",
+    "lang": "amh",
+    "baseline": "alpagasus_hardreject",
+    "seed": 13,
+    "n_selected": 31,
+    "macro_f1": 0.10504201680672269
+  },
+  {
+    "task": "news_topic_classification",
+    "lang": "amh",
+    "baseline": "less_style",
+    "seed": 13,
+    "n_selected": 64,
+    "macro_f1": 0.3195701661803357
+  },
+  {
+    "task": "news_topic_classification",
+    "lang": "hau",
+    "baseline": "naive",
+    "seed": 13,
+    "n_selected": 64,
+    "macro_f1": 0.03876720294630742
+  },
+  {
+    "task": "news_topic_classification",
+    "lang": "hau",
+    "baseline": "alpagasus_style",
+    "seed": 13,
+    "n_selected": 64,
+    "macro_f1": 0.03876720294630742
+  },
+  {
+    "task": "news_topic_classification",
+    "lang": "hau",
+    "baseline": "deita_style",
+    "seed": 13,
+    "n_selected": 64,
+    "macro_f1": 0.06434592902389512
+  },
+  {
+    "task": "news_topic_classification",
+    "lang": "hau",
+    "baseline": "cosda_equal_budget",
+    "seed": 13,
+    "n_selected": 64,
+    "macro_f1": 0.24181885362755637
+  },
+  {
+    "task": "news_topic_classification",
+    "lang": "hau",
+    "baseline": "cosda_rerank_v2",
+    "seed": 13,
+    "n_selected": 64,
+    "macro_f1": 0.03876720294630742
+  },
+  {
+    "task": "news_topic_classification",
+    "lang": "hau",
+    "baseline": "alpagasus_hardreject",
+    "seed": 13,
+    "n_selected": 50,
+    "macro_f1": 0.03876720294630742
+  },
+  {
+    "task": "news_topic_classification",
+    "lang": "hau",
+    "baseline": "less_style",
+    "seed": 13,
+    "n_selected": 64,
+    "macro_f1": 0.08400569530137636
+  },
+  {
+    "task": "news_topic_classification",
+    "lang": "swa",
+    "baseline": "naive",
+    "seed": 13,
+    "n_selected": 64,
+    "macro_f1": 0.01152073732718894
+  },
+  {
+    "task": "news_topic_classification",
+    "lang": "swa",
+    "baseline": "alpagasus_style",
+    "seed": 13,
+    "n_selected": 64,
+    "macro_f1": 0.01152073732718894
+  },
+  {
+    "task": "news_topic_classification",
+    "lang": "swa",
+    "baseline": "deita_style",
+    "seed": 13,
+    "n_selected": 64,
+    "macro_f1": 0.01152073732718894
+  },
+  {
+    "task": "news_topic_classification",
+    "lang": "swa",
+    "baseline": "cosda_equal_budget",
+    "seed": 13,
+    "n_selected": 64,
+    "macro_f1": 0.01152073732718894
+  },
+  {
+    "task": "news_topic_classification",
+    "lang": "swa",
+    "baseline": "cosda_rerank_v2",
+    "seed": 13,
+    "n_selected": 64,
+    "macro_f1": 0.09092327672176115
+  },
+  {
+    "task": "news_topic_classification",
+    "lang": "swa",
+    "baseline": "alpagasus_hardreject",
+    "seed": 13,
+    "n_selected": 64,
+    "macro_f1": 0.01152073732718894
+  },
+  {
+    "task": "news_topic_classification",
+    "lang": "swa",
+    "baseline": "less_style",
+    "seed": 13,
+    "n_selected": 64,
+    "macro_f1": 0.1389096030372545
+  },
+  {
+    "task": "news_topic_classification",
+    "lang": "yor",
+    "baseline": "naive",
+    "seed": 13,
+    "n_selected": 64,
+    "macro_f1": 0.0798079231692677
+  },
+  {
+    "task": "news_topic_classification",
+    "lang": "yor",
+    "baseline": "alpagasus_style",
+    "seed": 13,
+    "n_selected": 64,
+    "macro_f1": 0.06517311608961304
+  },
+  {
+    "task": "news_topic_classification",
+    "lang": "yor",
+    "baseline": "deita_style",
+    "seed": 13,
+    "n_selected": 64,
+    "macro_f1": 0.13616235288545786
+  },
+  {
+    "task": "news_topic_classification",
+    "lang": "yor",
+    "baseline": "cosda_equal_budget",
+    "seed": 13,
+    "n_selected": 64,
+    "macro_f1": 0.143240232433609
+  },
+  {
+    "task": "news_topic_classification",
+    "lang": "yor",
+    "baseline": "cosda_rerank_v2",
+    "seed": 13,
+    "n_selected": 64,
+    "macro_f1": 0.16434805401478725
+  },
+  {
+    "task": "news_topic_classification",
+    "lang": "yor",
+    "baseline": "alpagasus_hardreject",
+    "seed": 13,
+    "n_selected": 64,
+    "macro_f1": 0.2609069874501427
+  },
+  {
+    "task": "news_topic_classification",
+    "lang": "yor",
+    "baseline": "less_style",
+    "seed": 13,
+    "n_selected": 64,
+    "macro_f1": 0.06517311608961304
+  },
+  {
+    "task": "sentiment_classification",
+    "lang": "amh",
+    "baseline": "naive",
+    "seed": 13,
+    "n_selected": 64,
+    "macro_f1": 0.0671764882291198
+  },
+  {
+    "task": "sentiment_classification",
+    "lang": "amh",
+    "baseline": "alpagasus_style",
+    "seed": 13,
+    "n_selected": 64,
+    "macro_f1": 0.0671764882291198
+  },
+  {
+    "task": "sentiment_classification",
+    "lang": "amh",
+    "baseline": "deita_style",
+    "seed": 13,
+    "n_selected": 64,
+    "macro_f1": 0.07130146068894311
+  },
+  {
+    "task": "sentiment_classification",
+    "lang": "amh",
+    "baseline": "cosda_equal_budget",
+    "seed": 13,
+    "n_selected": 64,
+    "macro_f1": 0.07478308557102846
+  },
+  {
+    "task": "sentiment_classification",
+    "lang": "amh",
+    "baseline": "cosda_rerank_v2",
+    "seed": 13,
+    "n_selected": 64,
+    "macro_f1": 0.07463306711988733
+  },
+  {
+    "task": "sentiment_classification",
+    "lang": "amh",
+    "baseline": "alpagasus_hardreject",
+    "seed": 13,
+    "n_selected": 64,
+    "macro_f1": 0.0671764882291198
+  },
+  {
+    "task": "sentiment_classification",
+    "lang": "amh",
+    "baseline": "less_style",
+    "seed": 13,
+    "n_selected": 64,
+    "macro_f1": 0.0671764882291198
+  },
+  {
+    "task": "sentiment_classification",
+    "lang": "hau",
+    "baseline": "naive",
+    "seed": 13,
+    "n_selected": 64,
+    "macro_f1": 0.16817070877984583
+  },
+  {
+    "task": "sentiment_classification",
+    "lang": "hau",
+    "baseline": "alpagasus_style",
+    "seed": 13,
+    "n_selected": 64,
+    "macro_f1": 0.36435975180885966
+  },
+  {
+    "task": "sentiment_classification",
+    "lang": "hau",
+    "baseline": "deita_style",
+    "seed": 13,
+    "n_selected": 64,
+    "macro_f1": 0.16817070877984583
+  },
+  {
+    "task": "sentiment_classification",
+    "lang": "hau",
+    "baseline": "cosda_equal_budget",
+    "seed": 13,
+    "n_selected": 64,
+    "macro_f1": 0.4039675476295585
+  },
+  {
+    "task": "sentiment_classification",
+    "lang": "hau",
+    "baseline": "cosda_rerank_v2",
+    "seed": 13,
+    "n_selected": 64,
+    "macro_f1": 0.2427852602366034
+  },
+  {
+    "task": "sentiment_classification",
+    "lang": "hau",
+    "baseline": "alpagasus_hardreject",
+    "seed": 13,
+    "n_selected": 64,
+    "macro_f1": 0.34537482306767764
+  },
+  {
+    "task": "sentiment_classification",
+    "lang": "hau",
+    "baseline": "less_style",
+    "seed": 13,
+    "n_selected": 64,
+    "macro_f1": 0.29218919795199655
+  },
+  {
+    "task": "sentiment_classification",
+    "lang": "swa",
+    "baseline": "naive",
+    "seed": 13,
+    "n_selected": 64,
+    "macro_f1": 0.2483221476510067
+  },
+  {
+    "task": "sentiment_classification",
+    "lang": "swa",
+    "baseline": "alpagasus_style",
+    "seed": 13,
+    "n_selected": 64,
+    "macro_f1": 0.2483221476510067
+  },
+  {
+    "task": "sentiment_classification",
+    "lang": "swa",
+    "baseline": "deita_style",
+    "seed": 13,
+    "n_selected": 64,
+    "macro_f1": 0.2483221476510067
+  },
+  {
+    "task": "sentiment_classification",
+    "lang": "swa",
+    "baseline": "cosda_equal_budget",
+    "seed": 13,
+    "n_selected": 64,
+    "macro_f1": 0.2483221476510067
+  },
+  {
+    "task": "sentiment_classification",
+    "lang": "swa",
+    "baseline": "cosda_rerank_v2",
+    "seed": 13,
+    "n_selected": 64,
+    "macro_f1": 0.2483221476510067
+  },
+  {
+    "task": "sentiment_classification",
+    "lang": "swa",
+    "baseline": "alpagasus_hardreject",
+    "seed": 13,
+    "n_selected": 64,
+    "macro_f1": 0.2483221476510067
+  },
+  {
+    "task": "sentiment_classification",
+    "lang": "swa",
+    "baseline": "less_style",
+    "seed": 13,
+    "n_selected": 64,
+    "macro_f1": 0.3095908786049631
+  },
+  {
+    "task": "sentiment_classification",
+    "lang": "yor",
+    "baseline": "naive",
+    "seed": 13,
+    "n_selected": 64,
+    "macro_f1": 0.17977680652272657
+  },
+  {
+    "task": "sentiment_classification",
+    "lang": "yor",
+    "baseline": "alpagasus_style",
+    "seed": 13,
+    "n_selected": 64,
+    "macro_f1": 0.17571902354156474
+  },
+  {
+    "task": "sentiment_classification",
+    "lang": "yor",
+    "baseline": "deita_style",
+    "seed": 13,
+    "n_selected": 64,
+    "macro_f1": 0.17571902354156474
+  },
+  {
+    "task": "sentiment_classification",
+    "lang": "yor",
+    "baseline": "cosda_equal_budget",
+    "seed": 13,
+    "n_selected": 64,
+    "macro_f1": 0.21350756557208297
+  },
+  {
+    "task": "sentiment_classification",
+    "lang": "yor",
+    "baseline": "cosda_rerank_v2",
+    "seed": 13,
+    "n_selected": 64,
+    "macro_f1": 0.17545578231292516
+  },
+  {
+    "task": "sentiment_classification",
+    "lang": "yor",
+    "baseline": "alpagasus_hardreject",
+    "seed": 13,
+    "n_selected": 64,
+    "macro_f1": 0.17571902354156474
+  },
+  {
+    "task": "sentiment_classification",
+    "lang": "yor",
+    "baseline": "less_style",
+    "seed": 13,
+    "n_selected": 64,
+    "macro_f1": 0.2601533846109036
+  }
+]

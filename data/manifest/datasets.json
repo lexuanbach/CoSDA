@@ -1,0 +1,281 @@
+{
+  "datasets": [
+    {
+      "dataset_id": "masakhane/masakhanews",
+      "task": "news_topic_classification",
+      "cells": {
+        "amh": {
+          "train": {
+            "path": "data/raw/hf/masakhane__masakhanews/data/amh/train.tsv",
+            "rows": 1311,
+            "labels": {
+              "business": 282,
+              "health": 350,
+              "politics": 350,
+              "sports": 329
+            }
+          },
+          "dev": {
+            "path": "data/raw/hf/masakhane__masakhanews/data/amh/dev.tsv",
+            "rows": 188,
+            "labels": {
+              "business": 41,
+              "health": 50,
+              "politics": 50,
+              "sports": 47
+            }
+          },
+          "test": {
+            "path": "data/raw/hf/masakhane__masakhanews/data/amh/test.tsv",
+            "rows": 376,
+            "labels": {
+              "business": 81,
+              "health": 100,
+              "politics": 100,
+              "sports": 95
+            }
+          }
+        },
+        "hau": {
+          "train": {
+            "path": "data/raw/hf/masakhane__masakhanews/data/hau/train.tsv",
+            "rows": 2219,
+            "labels": {
+              "business": 279,
+              "entertainment": 350,
+              "health": 345,
+              "politics": 350,
+              "religion": 345,
+              "sports": 347,
+              "technology": 203
+            }
+          },
+          "dev": {
+            "path": "data/raw/hf/masakhane__masakhanews/data/hau/dev.tsv",
+            "rows": 317,
+            "labels": {
+              "business": 40,
+              "entertainment": 50,
+              "health": 49,
+              "politics": 50,
+              "religion": 49,
+              "sports": 50,
+              "technology": 29
+            }
+          },
+          "test": {
+            "path": "data/raw/hf/masakhane__masakhanews/data/hau/test.tsv",
+            "rows": 637,
+            "labels": {
+              "business": 80,
+              "entertainment": 100,
+              "health": 99,
+              "politics": 100,
+              "religion": 99,
+              "sports": 100,
+              "technology": 59
+            }
+          }
+        },
+        "swa": {
+          "train": {
+            "path": "data/raw/hf/masakhane__masakhanews/data/swa/train.tsv",
+            "rows": 1658,
+            "labels": {
+              "business": 221,
+              "entertainment": 68,
+              "health": 350,
+              "politics": 350,
+              "religion": 204,
+              "sports": 350,
+              "technology": 115
+            }
+          },
+          "dev": {
+            "path": "data/raw/hf/masakhane__masakhanews/data/swa/dev.tsv",
+            "rows": 237,
+            "labels": {
+              "business": 31,
+              "entertainment": 10,
+              "health": 50,
+              "politics": 50,
+              "religion": 29,
+              "sports": 50,
+              "technology": 17
+            }
+          },
+          "test": {
+            "path": "data/raw/hf/masakhane__masakhanews/data/swa/test.tsv",
+            "rows": 476,
+            "labels": {
+              "business": 64,
+              "entertainment": 20,
+              "health": 100,
+              "politics": 100,
+              "religion": 59,
+              "sports": 100,
+              "technology": 33
+            }
+          }
+        },
+        "yor": {
+          "train": {
+            "path": "data/raw/hf/masakhane__masakhanews/data/yor/train.tsv",
+            "rows": 1433,
+            "labels": {
+              "entertainment": 350,
+              "health": 278,
+              "politics": 350,
+              "religion": 221,
+              "sports": 234
+            }
+          },
+          "dev": {
+            "path": "data/raw/hf/masakhane__masakhanews/data/yor/dev.tsv",
+            "rows": 206,
+            "labels": {
+              "entertainment": 50,
+              "health": 40,
+              "politics": 50,
+              "religion": 32,
+              "sports": 34
+            }
+          },
+          "test": {
+            "path": "data/raw/hf/masakhane__masakhanews/data/yor/test.tsv",
+            "rows": 411,
+            "labels": {
+              "entertainment": 100,
+              "health": 80,
+              "politics": 100,
+              "religion": 64,
+              "sports": 67
+            }
+          }
+        }
+      }
+    },
+    {
+      "dataset_id": "masakhane/afrisenti",
+      "task": "sentiment_classification",
+      "cells": {
+        "amh": {
+          "train": {
+            "path": "data/raw/hf/masakhane__afrisenti/data/amh/train.tsv",
+            "rows": 5984,
+            "labels": {
+              "negative": 1548,
+              "neutral": 3104,
+              "positive": 1332
+            }
+          },
+          "dev": {
+            "path": "data/raw/hf/masakhane__afrisenti/data/amh/dev.tsv",
+            "rows": 1497,
+            "labels": {
+              "negative": 388,
+              "neutral": 776,
+              "positive": 333
+            }
+          },
+          "test": {
+            "path": "data/raw/hf/masakhane__afrisenti/data/amh/test.tsv",
+            "rows": 1999,
+            "labels": {
+              "negative": 1337,
+              "neutral": 224,
+              "positive": 438
+            }
+          }
+        },
+        "hau": {
+          "train": {
+            "path": "data/raw/hf/masakhane__afrisenti/data/hau/train.tsv",
+            "rows": 14172,
+            "labels": {
+              "negative": 4573,
+              "neutral": 4912,
+              "positive": 4687
+            }
+          },
+          "dev": {
+            "path": "data/raw/hf/masakhane__afrisenti/data/hau/dev.tsv",
+            "rows": 2677,
+            "labels": {
+              "negative": 894,
+              "neutral": 896,
+              "positive": 887
+            }
+          },
+          "test": {
+            "path": "data/raw/hf/masakhane__afrisenti/data/hau/test.tsv",
+            "rows": 5303,
+            "labels": {
+              "negative": 1759,
+              "neutral": 1789,
+              "positive": 1755
+            }
+          }
+        },
+        "swa": {
+          "train": {
+            "path": "data/raw/hf/masakhane__afrisenti/data/swa/train.tsv",
+            "rows": 1810,
+            "labels": {
+              "negative": 191,
+              "neutral": 1072,
+              "positive": 547
+            }
+          },
+          "dev": {
+            "path": "data/raw/hf/masakhane__afrisenti/data/swa/dev.tsv",
+            "rows": 453,
+            "labels": {
+              "negative": 48,
+              "neutral": 268,
+              "positive": 137
+            }
+          },
+          "test": {
+            "path": "data/raw/hf/masakhane__afrisenti/data/swa/test.tsv",
+            "rows": 748,
+            "labels": {
+              "negative": 80,
+              "neutral": 444,
+              "positive": 224
+            }
+          }
+        },
+        "yor": {
+          "train": {
+            "path": "data/raw/hf/masakhane__afrisenti/data/yor/train.tsv",
+            "rows": 8522,
+            "labels": {
+              "negative": 1872,
+              "neutral": 3108,
+              "positive": 3542
+            }
+          },
+          "dev": {
+            "path": "data/raw/hf/masakhane__afrisenti/data/yor/dev.tsv",
+            "rows": 2090,
+            "labels": {
+              "negative": 443,
+              "neutral": 763,
+              "positive": 884
+            }
+          },
+          "test": {
+            "path": "data/raw/hf/masakhane__afrisenti/data/yor/test.tsv",
+            "rows": 4515,
+            "labels": {
+              "negative": 981,
+              "neutral": 1616,
+              "positive": 1918
+            }
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+cells: 8
+
+selector      mean F1      LC
+  Naive         0.167   0.767
+  AlpaGasus     0.202   0.890
+  DEITA         0.128   0.869
+  CoSDA-EQ      0.133   0.836
+  CoSDA-V2      0.163   0.904
+
+selector-level Spearman(LC, F1)      = +0.10
+selector-level Spearman(hard-rej, F1) = +0.20
+selector-level Spearman(C, F1)        = -0.20
+
+judge-free channels vs mean Macro-F1:
+  D  -1.00
+  L  +0.40
+  H  -0.20
+  equal-weight direction-normalised composite(D,L,H)  -1.00
+
+within-cell Spearman(LC, F1)   [per-cell LC, not the global mean]:
+  news/amh  +0.22
+  news/hau  +0.31
+  news/swa  +0.87
+  news/yor  -0.71
+  sent/amh  -0.22
+  sent/hau  +0.90
+  sent/swa  -0.35
+  sent/yor  -0.67
+  mean +0.04   median +0.00
+
+near-degenerate cells (selector spread <= 0.07): news/yor, sent/swa, sent/yor
+non-degenerate subset means:
+  Naive      0.156
+  AlpaGasus  0.226
+  DEITA      0.103
+  CoSDA-EQ   0.114
+  CoSDA-V2   0.163
+
+CoSDA-V2 - Naive : mean -0.004  exact 95% CI [-0.079, +0.078]
+           non-degenerate: mean +0.007  CI [-0.114, +0.133]
+  leave-one-cell-out mean delta:
+    drop news/amh  -> +0.022
+    drop news/hau  -> +0.001
+    drop news/swa  -> -0.023
+    drop news/yor  -> +0.005
+    drop sent/amh  -> +0.008
+    drop sent/hau  -> -0.034
+    drop sent/swa  -> -0.004
+    drop sent/yor  -> -0.004
+
+AlpaGasus - Naive : mean +0.036  exact 95% CI [-0.022, +0.093]
+            non-degenerate: mean +0.070  CI [-0.015, +0.137]

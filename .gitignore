@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.DS_Store
+*.pem
+*.key
+.env
+
+# Machine-specific environment dumps (can contain hardware UUID / serial)
+reports/
+scratch.env
+data/raw/
+.venv/

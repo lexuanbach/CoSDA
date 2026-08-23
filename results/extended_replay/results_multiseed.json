@@ -1,0 +1,1122 @@
+[
+  {
+    "tag": "multiseed",
+    "model": "FacebookAI/xlm-roberta-base",
+    "task": "news_topic_classification",
+    "lang": "amh",
+    "baseline": "naive",
+    "seed": 21,
+    "n_selected": 64,
+    "macro_f1": 0.10504201680672269
+  },
+  {
+    "tag": "multiseed",
+    "model": "FacebookAI/xlm-roberta-base",
+    "task": "news_topic_classification",
+    "lang": "amh",
+    "baseline": "naive",
+    "seed": 42,
+    "n_selected": 64,
+    "macro_f1": 0.29270364454769854
+  },
+  {
+    "tag": "multiseed",
+    "model": "FacebookAI/xlm-roberta-base",
+    "task": "news_topic_classification",
+    "lang": "amh",
+    "baseline": "alpagasus_style",
+    "seed": 21,
+    "n_selected": 64,
+    "macro_f1": 0.377755781590174
+  },
+  {
+    "tag": "multiseed",
+    "model": "FacebookAI/xlm-roberta-base",
+    "task": "news_topic_classification",
+    "lang": "amh",
+    "baseline": "alpagasus_style",
+    "seed": 42,
+    "n_selected": 64,
+    "macro_f1": 0.4763177054659513
+  },
+  {
+    "tag": "multiseed",
+    "model": "FacebookAI/xlm-roberta-base",
+    "task": "news_topic_classification",
+    "lang": "amh",
+    "baseline": "deita_style",
+    "seed": 21,
+    "n_selected": 64,
+    "macro_f1": 0.2503386532683119
+  },
+  {
+    "tag": "multiseed",
+    "model": "FacebookAI/xlm-roberta-base",
+    "task": "news_topic_classification",
+    "lang": "amh",
+    "baseline": "deita_style",
+    "seed": 42,
+    "n_selected": 64,
+    "macro_f1": 0.11197106601491137
+  },
+  {
+    "tag": "multiseed",
+    "model": "FacebookAI/xlm-roberta-base",
+    "task": "news_topic_classification",
+    "lang": "amh",
+    "baseline": "cosda_equal_budget",
+    "seed": 21,
+    "n_selected": 64,
+    "macro_f1": 0.10504201680672269
+  },
+  {
+    "tag": "multiseed",
+    "model": "FacebookAI/xlm-roberta-base",
+    "task": "news_topic_classification",
+    "lang": "amh",
+    "baseline": "cosda_equal_budget",
+    "seed": 42,
+    "n_selected": 64,
+    "macro_f1": 0.22430505845860177
+  },
+  {
+    "tag": "multiseed",
+    "model": "FacebookAI/xlm-roberta-base",
+    "task": "news_topic_classification",
+    "lang": "amh",
+    "baseline": "cosda_rerank_v2",
+    "seed": 21,
+    "n_selected": 64,
+    "macro_f1": 0.10504201680672269
+  },
+  {
+    "tag": "multiseed",
+    "model": "FacebookAI/xlm-roberta-base",
+    "task": "news_topic_classification",
+    "lang": "amh",
+    "baseline": "cosda_rerank_v2",
+    "seed": 42,
+    "n_selected": 64,
+    "macro_f1": 0.10504201680672269
+  },
+  {
+    "tag": "multiseed",
+    "model": "FacebookAI/xlm-roberta-base",
+    "task": "news_topic_classification",
+    "lang": "amh",
+    "baseline": "alpagasus_hardreject",
+    "seed": 21,
+    "n_selected": 31,
+    "macro_f1": 0.21076640067616276
+  },
+  {
+    "tag": "multiseed",
+    "model": "FacebookAI/xlm-roberta-base",
+    "task": "news_topic_classification",
+    "lang": "amh",
+    "baseline": "alpagasus_hardreject",
+    "seed": 42,
+    "n_selected": 31,
+    "macro_f1": 0.0886214442013129
+  },
+  {
+    "tag": "multiseed",
+    "model": "FacebookAI/xlm-roberta-base",
+    "task": "news_topic_classification",
+    "lang": "amh",
+    "baseline": "less_style",
+    "seed": 21,
+    "n_selected": 64,
+    "macro_f1": 0.22579545454545455
+  },
+  {
+    "tag": "multiseed",
+    "model": "FacebookAI/xlm-roberta-base",
+    "task": "news_topic_classification",
+    "lang": "amh",
+    "baseline": "less_style",
+    "seed": 42,
+    "n_selected": 64,
+    "macro_f1": 0.18978550324239285
+  },
+  {
+    "tag": "multiseed",
+    "model": "FacebookAI/xlm-roberta-base",
+    "task": "news_topic_classification",
+    "lang": "hau",
+    "baseline": "naive",
+    "seed": 21,
+    "n_selected": 64,
+    "macro_f1": 0.047046679247857034
+  },
+  {
+    "tag": "multiseed",
+    "model": "FacebookAI/xlm-roberta-base",
+    "task": "news_topic_classification",
+    "lang": "hau",
+    "baseline": "naive",
+    "seed": 42,
+    "n_selected": 64,
+    "macro_f1": 0.17611676249447147
+  },
+  {
+    "tag": "multiseed",
+    "model": "FacebookAI/xlm-roberta-base",
+    "task": "news_topic_classification",
+    "lang": "hau",
+    "baseline": "alpagasus_style",
+    "seed": 21,
+    "n_selected": 64,
+    "macro_f1": 0.07131215730648141
+  },
+  {
+    "tag": "multiseed",
+    "model": "FacebookAI/xlm-roberta-base",
+    "task": "news_topic_classification",
+    "lang": "hau",
+    "baseline": "alpagasus_style",
+    "seed": 42,
+    "n_selected": 64,
+    "macro_f1": 0.2324959786404742
+  },
+  {
+    "tag": "multiseed",
+    "model": "FacebookAI/xlm-roberta-base",
+    "task": "news_topic_classification",
+    "lang": "hau",
+    "baseline": "deita_style",
+    "seed": 21,
+    "n_selected": 64,
+    "macro_f1": 0.11818364638160392
+  },
+  {
+    "tag": "multiseed",
+    "model": "FacebookAI/xlm-roberta-base",
+    "task": "news_topic_classification",
+    "lang": "hau",
+    "baseline": "deita_style",
+    "seed": 42,
+    "n_selected": 64,
+    "macro_f1": 0.13847435566950667
+  },
+  {
+    "tag": "multiseed",
+    "model": "FacebookAI/xlm-roberta-base",
+    "task": "news_topic_classification",
+    "lang": "hau",
+    "baseline": "cosda_equal_budget",
+    "seed": 21,
+    "n_selected": 64,
+    "macro_f1": 0.27424978139418493
+  },
+  {
+    "tag": "multiseed",
+    "model": "FacebookAI/xlm-roberta-base",
+    "task": "news_topic_classification",
+    "lang": "hau",
+    "baseline": "cosda_equal_budget",
+    "seed": 42,
+    "n_selected": 64,
+    "macro_f1": 0.2176157695117145
+  },
+  {
+    "tag": "multiseed",
+    "model": "FacebookAI/xlm-roberta-base",
+    "task": "news_topic_classification",
+    "lang": "hau",
+    "baseline": "cosda_rerank_v2",
+    "seed": 21,
+    "n_selected": 64,
+    "macro_f1": 0.03843167701863354
+  },
+  {
+    "tag": "multiseed",
+    "model": "FacebookAI/xlm-roberta-base",
+    "task": "news_topic_classification",
+    "lang": "hau",
+    "baseline": "cosda_rerank_v2",
+    "seed": 42,
+    "n_selected": 64,
+    "macro_f1": 0.18674742411584516
+  },
+  {
+    "tag": "multiseed",
+    "model": "FacebookAI/xlm-roberta-base",
+    "task": "news_topic_classification",
+    "lang": "hau",
+    "baseline": "alpagasus_hardreject",
+    "seed": 21,
+    "n_selected": 50,
+    "macro_f1": 0.2178608352664182
+  },
+  {
+    "tag": "multiseed",
+    "model": "FacebookAI/xlm-roberta-base",
+    "task": "news_topic_classification",
+    "lang": "hau",
+    "baseline": "alpagasus_hardreject",
+    "seed": 42,
+    "n_selected": 50,
+    "macro_f1": 0.16293852331459333
+  },
+  {
+    "tag": "multiseed",
+    "model": "FacebookAI/xlm-roberta-base",
+    "task": "news_topic_classification",
+    "lang": "hau",
+    "baseline": "less_style",
+    "seed": 21,
+    "n_selected": 64,
+    "macro_f1": 0.07054168527314307
+  },
+  {
+    "tag": "multiseed",
+    "model": "FacebookAI/xlm-roberta-base",
+    "task": "news_topic_classification",
+    "lang": "hau",
+    "baseline": "less_style",
+    "seed": 42,
+    "n_selected": 64,
+    "macro_f1": 0.1884567466833477
+  },
+  {
+    "tag": "multiseed",
+    "model": "FacebookAI/xlm-roberta-base",
+    "task": "news_topic_classification",
+    "lang": "swa",
+    "baseline": "naive",
+    "seed": 21,
+    "n_selected": 64,
+    "macro_f1": 0.22392796112906413
+  },
+  {
+    "tag": "multiseed",
+    "model": "FacebookAI/xlm-roberta-base",
+    "task": "news_topic_classification",
+    "lang": "swa",
+    "baseline": "naive",
+    "seed": 42,
+    "n_selected": 64,
+    "macro_f1": 0.2072878991049163
+  },
+  {
+    "tag": "multiseed",
+    "model": "FacebookAI/xlm-roberta-base",
+    "task": "news_topic_classification",
+    "lang": "swa",
+    "baseline": "alpagasus_style",
+    "seed": 21,
+    "n_selected": 64,
+    "macro_f1": 0.16739274181054414
+  },
+  {
+    "tag": "multiseed",
+    "model": "FacebookAI/xlm-roberta-base",
+    "task": "news_topic_classification",
+    "lang": "swa",
+    "baseline": "alpagasus_style",
+    "seed": 42,
+    "n_selected": 64,
+    "macro_f1": 0.25610546209737134
+  },
+  {
+    "tag": "multiseed",
+    "model": "FacebookAI/xlm-roberta-base",
+    "task": "news_topic_classification",
+    "lang": "swa",
+    "baseline": "deita_style",
+    "seed": 21,
+    "n_selected": 64,
+    "macro_f1": 0.2066787914081183
+  },
+  {
+    "tag": "multiseed",
+    "model": "FacebookAI/xlm-roberta-base",
+    "task": "news_topic_classification",
+    "lang": "swa",
+    "baseline": "deita_style",
+    "seed": 42,
+    "n_selected": 64,
+    "macro_f1": 0.16472957936372573
+  },
+  {
+    "tag": "multiseed",
+    "model": "FacebookAI/xlm-roberta-base",
+    "task": "news_topic_classification",
+    "lang": "swa",
+    "baseline": "cosda_equal_budget",
+    "seed": 21,
+    "n_selected": 64,
+    "macro_f1": 0.0496031746031746
+  },
+  {
+    "tag": "multiseed",
+    "model": "FacebookAI/xlm-roberta-base",
+    "task": "news_topic_classification",
+    "lang": "swa",
+    "baseline": "cosda_equal_budget",
+    "seed": 42,
+    "n_selected": 64,
+    "macro_f1": 0.0315086782376502
+  },
+  {
+    "tag": "multiseed",
+    "model": "FacebookAI/xlm-roberta-base",
+    "task": "news_topic_classification",
+    "lang": "swa",
+    "baseline": "cosda_rerank_v2",
+    "seed": 21,
+    "n_selected": 64,
+    "macro_f1": 0.059860722379970914
+  },
+  {
+    "tag": "multiseed",
+    "model": "FacebookAI/xlm-roberta-base",
+    "task": "news_topic_classification",
+    "lang": "swa",
+    "baseline": "cosda_rerank_v2",
+    "seed": 42,
+    "n_selected": 64,
+    "macro_f1": 0.1934175270808934
+  },
+  {
+    "tag": "multiseed",
+    "model": "FacebookAI/xlm-roberta-base",
+    "task": "news_topic_classification",
+    "lang": "swa",
+    "baseline": "alpagasus_hardreject",
+    "seed": 21,
+    "n_selected": 64,
+    "macro_f1": 0.04134953842066813
+  },
+  {
+    "tag": "multiseed",
+    "model": "FacebookAI/xlm-roberta-base",
+    "task": "news_topic_classification",
+    "lang": "swa",
+    "baseline": "alpagasus_hardreject",
+    "seed": 42,
+    "n_selected": 64,
+    "macro_f1": 0.18057248873575404
+  },
+  {
+    "tag": "multiseed",
+    "model": "FacebookAI/xlm-roberta-base",
+    "task": "news_topic_classification",
+    "lang": "swa",
+    "baseline": "less_style",
+    "seed": 21,
+    "n_selected": 64,
+    "macro_f1": 0.193287864596388
+  },
+  {
+    "tag": "multiseed",
+    "model": "FacebookAI/xlm-roberta-base",
+    "task": "news_topic_classification",
+    "lang": "swa",
+    "baseline": "less_style",
+    "seed": 42,
+    "n_selected": 64,
+    "macro_f1": 0.19534942504790517
+  },
+  {
+    "tag": "multiseed",
+    "model": "FacebookAI/xlm-roberta-base",
+    "task": "news_topic_classification",
+    "lang": "yor",
+    "baseline": "naive",
+    "seed": 21,
+    "n_selected": 64,
+    "macro_f1": 0.07827788649706457
+  },
+  {
+    "tag": "multiseed",
+    "model": "FacebookAI/xlm-roberta-base",
+    "task": "news_topic_classification",
+    "lang": "yor",
+    "baseline": "naive",
+    "seed": 42,
+    "n_selected": 64,
+    "macro_f1": 0.1281990807934204
+  },
+  {
+    "tag": "multiseed",
+    "model": "FacebookAI/xlm-roberta-base",
+    "task": "news_topic_classification",
+    "lang": "yor",
+    "baseline": "alpagasus_style",
+    "seed": 21,
+    "n_selected": 64,
+    "macro_f1": 0.07827788649706457
+  },
+  {
+    "tag": "multiseed",
+    "model": "FacebookAI/xlm-roberta-base",
+    "task": "news_topic_classification",
+    "lang": "yor",
+    "baseline": "alpagasus_style",
+    "seed": 42,
+    "n_selected": 64,
+    "macro_f1": 0.05606694560669456
+  },
+  {
+    "tag": "multiseed",
+    "model": "FacebookAI/xlm-roberta-base",
+    "task": "news_topic_classification",
+    "lang": "yor",
+    "baseline": "deita_style",
+    "seed": 21,
+    "n_selected": 64,
+    "macro_f1": 0.08277777777777777
+  },
+  {
+    "tag": "multiseed",
+    "model": "FacebookAI/xlm-roberta-base",
+    "task": "news_topic_classification",
+    "lang": "yor",
+    "baseline": "deita_style",
+    "seed": 42,
+    "n_selected": 64,
+    "macro_f1": 0.15954066985645934
+  },
+  {
+    "tag": "multiseed",
+    "model": "FacebookAI/xlm-roberta-base",
+    "task": "news_topic_classification",
+    "lang": "yor",
+    "baseline": "cosda_equal_budget",
+    "seed": 21,
+    "n_selected": 64,
+    "macro_f1": 0.05606694560669456
+  },
+  {
+    "tag": "multiseed",
+    "model": "FacebookAI/xlm-roberta-base",
+    "task": "news_topic_classification",
+    "lang": "yor",
+    "baseline": "cosda_equal_budget",
+    "seed": 42,
+    "n_selected": 64,
+    "macro_f1": 0.05606694560669456
+  },
+  {
+    "tag": "multiseed",
+    "model": "FacebookAI/xlm-roberta-base",
+    "task": "news_topic_classification",
+    "lang": "yor",
+    "baseline": "cosda_rerank_v2",
+    "seed": 21,
+    "n_selected": 64,
+    "macro_f1": 0.05606694560669456
+  },
+  {
+    "tag": "multiseed",
+    "model": "FacebookAI/xlm-roberta-base",
+    "task": "news_topic_classification",
+    "lang": "yor",
+    "baseline": "cosda_rerank_v2",
+    "seed": 42,
+    "n_selected": 64,
+    "macro_f1": 0.05606694560669456
+  },
+  {
+    "tag": "multiseed",
+    "model": "FacebookAI/xlm-roberta-base",
+    "task": "news_topic_classification",
+    "lang": "yor",
+    "baseline": "alpagasus_hardreject",
+    "seed": 21,
+    "n_selected": 64,
+    "macro_f1": 0.055462184873949584
+  },
+  {
+    "tag": "multiseed",
+    "model": "FacebookAI/xlm-roberta-base",
+    "task": "news_topic_classification",
+    "lang": "yor",
+    "baseline": "alpagasus_hardreject",
+    "seed": 42,
+    "n_selected": 64,
+    "macro_f1": 0.08140734718013157
+  },
+  {
+    "tag": "multiseed",
+    "model": "FacebookAI/xlm-roberta-base",
+    "task": "news_topic_classification",
+    "lang": "yor",
+    "baseline": "less_style",
+    "seed": 21,
+    "n_selected": 64,
+    "macro_f1": 0.07827788649706457
+  },
+  {
+    "tag": "multiseed",
+    "model": "FacebookAI/xlm-roberta-base",
+    "task": "news_topic_classification",
+    "lang": "yor",
+    "baseline": "less_style",
+    "seed": 42,
+    "n_selected": 64,
+    "macro_f1": 0.11942564102564104
+  },
+  {
+    "tag": "multiseed",
+    "model": "FacebookAI/xlm-roberta-base",
+    "task": "sentiment_classification",
+    "lang": "amh",
+    "baseline": "naive",
+    "seed": 21,
+    "n_selected": 64,
+    "macro_f1": 0.11981945014361921
+  },
+  {
+    "tag": "multiseed",
+    "model": "FacebookAI/xlm-roberta-base",
+    "task": "sentiment_classification",
+    "lang": "amh",
+    "baseline": "naive",
+    "seed": 42,
+    "n_selected": 64,
+    "macro_f1": 0.2671862509992006
+  },
+  {
+    "tag": "multiseed",
+    "model": "FacebookAI/xlm-roberta-base",
+    "task": "sentiment_classification",
+    "lang": "amh",
+    "baseline": "alpagasus_style",
+    "seed": 21,
+    "n_selected": 64,
+    "macro_f1": 0.32523101380000424
+  },
+  {
+    "tag": "multiseed",
+    "model": "FacebookAI/xlm-roberta-base",
+    "task": "sentiment_classification",
+    "lang": "amh",
+    "baseline": "alpagasus_style",
+    "seed": 42,
+    "n_selected": 64,
+    "macro_f1": 0.2671862509992006
+  },
+  {
+    "tag": "multiseed",
+    "model": "FacebookAI/xlm-roberta-base",
+    "task": "sentiment_classification",
+    "lang": "amh",
+    "baseline": "deita_style",
+    "seed": 21,
+    "n_selected": 64,
+    "macro_f1": 0.11981945014361921
+  },
+  {
+    "tag": "multiseed",
+    "model": "FacebookAI/xlm-roberta-base",
+    "task": "sentiment_classification",
+    "lang": "amh",
+    "baseline": "deita_style",
+    "seed": 42,
+    "n_selected": 64,
+    "macro_f1": 0.2671862509992006
+  },
+  {
+    "tag": "multiseed",
+    "model": "FacebookAI/xlm-roberta-base",
+    "task": "sentiment_classification",
+    "lang": "amh",
+    "baseline": "cosda_equal_budget",
+    "seed": 21,
+    "n_selected": 64,
+    "macro_f1": 0.2717566701508716
+  },
+  {
+    "tag": "multiseed",
+    "model": "FacebookAI/xlm-roberta-base",
+    "task": "sentiment_classification",
+    "lang": "amh",
+    "baseline": "cosda_equal_budget",
+    "seed": 42,
+    "n_selected": 64,
+    "macro_f1": 0.2671862509992006
+  },
+  {
+    "tag": "multiseed",
+    "model": "FacebookAI/xlm-roberta-base",
+    "task": "sentiment_classification",
+    "lang": "amh",
+    "baseline": "cosda_rerank_v2",
+    "seed": 21,
+    "n_selected": 64,
+    "macro_f1": 0.3010197143141154
+  },
+  {
+    "tag": "multiseed",
+    "model": "FacebookAI/xlm-roberta-base",
+    "task": "sentiment_classification",
+    "lang": "amh",
+    "baseline": "cosda_rerank_v2",
+    "seed": 42,
+    "n_selected": 64,
+    "macro_f1": 0.2671862509992006
+  },
+  {
+    "tag": "multiseed",
+    "model": "FacebookAI/xlm-roberta-base",
+    "task": "sentiment_classification",
+    "lang": "amh",
+    "baseline": "alpagasus_hardreject",
+    "seed": 21,
+    "n_selected": 64,
+    "macro_f1": 0.11964407939767284
+  },
+  {
+    "tag": "multiseed",
+    "model": "FacebookAI/xlm-roberta-base",
+    "task": "sentiment_classification",
+    "lang": "amh",
+    "baseline": "alpagasus_hardreject",
+    "seed": 42,
+    "n_selected": 64,
+    "macro_f1": 0.2732256099342914
+  },
+  {
+    "tag": "multiseed",
+    "model": "FacebookAI/xlm-roberta-base",
+    "task": "sentiment_classification",
+    "lang": "amh",
+    "baseline": "less_style",
+    "seed": 21,
+    "n_selected": 64,
+    "macro_f1": 0.12123385478014365
+  },
+  {
+    "tag": "multiseed",
+    "model": "FacebookAI/xlm-roberta-base",
+    "task": "sentiment_classification",
+    "lang": "amh",
+    "baseline": "less_style",
+    "seed": 42,
+    "n_selected": 64,
+    "macro_f1": 0.36045057162071287
+  },
+  {
+    "tag": "multiseed",
+    "model": "FacebookAI/xlm-roberta-base",
+    "task": "sentiment_classification",
+    "lang": "hau",
+    "baseline": "naive",
+    "seed": 21,
+    "n_selected": 64,
+    "macro_f1": 0.19681012229235817
+  },
+  {
+    "tag": "multiseed",
+    "model": "FacebookAI/xlm-roberta-base",
+    "task": "sentiment_classification",
+    "lang": "hau",
+    "baseline": "naive",
+    "seed": 42,
+    "n_selected": 64,
+    "macro_f1": 0.3155768266143169
+  },
+  {
+    "tag": "multiseed",
+    "model": "FacebookAI/xlm-roberta-base",
+    "task": "sentiment_classification",
+    "lang": "hau",
+    "baseline": "alpagasus_style",
+    "seed": 21,
+    "n_selected": 64,
+    "macro_f1": 0.2742963411264306
+  },
+  {
+    "tag": "multiseed",
+    "model": "FacebookAI/xlm-roberta-base",
+    "task": "sentiment_classification",
+    "lang": "hau",
+    "baseline": "alpagasus_style",
+    "seed": 42,
+    "n_selected": 64,
+    "macro_f1": 0.16605305390352118
+  },
+  {
+    "tag": "multiseed",
+    "model": "FacebookAI/xlm-roberta-base",
+    "task": "sentiment_classification",
+    "lang": "hau",
+    "baseline": "deita_style",
+    "seed": 21,
+    "n_selected": 64,
+    "macro_f1": 0.1864734470011471
+  },
+  {
+    "tag": "multiseed",
+    "model": "FacebookAI/xlm-roberta-base",
+    "task": "sentiment_classification",
+    "lang": "hau",
+    "baseline": "deita_style",
+    "seed": 42,
+    "n_selected": 64,
+    "macro_f1": 0.2467527167200452
+  },
+  {
+    "tag": "multiseed",
+    "model": "FacebookAI/xlm-roberta-base",
+    "task": "sentiment_classification",
+    "lang": "hau",
+    "baseline": "cosda_equal_budget",
+    "seed": 21,
+    "n_selected": 64,
+    "macro_f1": 0.2174525054921667
+  },
+  {
+    "tag": "multiseed",
+    "model": "FacebookAI/xlm-roberta-base",
+    "task": "sentiment_classification",
+    "lang": "hau",
+    "baseline": "cosda_equal_budget",
+    "seed": 42,
+    "n_selected": 64,
+    "macro_f1": 0.26132702617972775
+  },
+  {
+    "tag": "multiseed",
+    "model": "FacebookAI/xlm-roberta-base",
+    "task": "sentiment_classification",
+    "lang": "hau",
+    "baseline": "cosda_rerank_v2",
+    "seed": 21,
+    "n_selected": 64,
+    "macro_f1": 0.1657693397563049
+  },
+  {
+    "tag": "multiseed",
+    "model": "FacebookAI/xlm-roberta-base",
+    "task": "sentiment_classification",
+    "lang": "hau",
+    "baseline": "cosda_rerank_v2",
+    "seed": 42,
+    "n_selected": 64,
+    "macro_f1": 0.18903745984398612
+  },
+  {
+    "tag": "multiseed",
+    "model": "FacebookAI/xlm-roberta-base",
+    "task": "sentiment_classification",
+    "lang": "hau",
+    "baseline": "alpagasus_hardreject",
+    "seed": 21,
+    "n_selected": 64,
+    "macro_f1": 0.28089334068835553
+  },
+  {
+    "tag": "multiseed",
+    "model": "FacebookAI/xlm-roberta-base",
+    "task": "sentiment_classification",
+    "lang": "hau",
+    "baseline": "alpagasus_hardreject",
+    "seed": 42,
+    "n_selected": 64,
+    "macro_f1": 0.36610506731324577
+  },
+  {
+    "tag": "multiseed",
+    "model": "FacebookAI/xlm-roberta-base",
+    "task": "sentiment_classification",
+    "lang": "hau",
+    "baseline": "less_style",
+    "seed": 21,
+    "n_selected": 64,
+    "macro_f1": 0.2999535351464182
+  },
+  {
+    "tag": "multiseed",
+    "model": "FacebookAI/xlm-roberta-base",
+    "task": "sentiment_classification",
+    "lang": "hau",
+    "baseline": "less_style",
+    "seed": 42,
+    "n_selected": 64,
+    "macro_f1": 0.16605305390352118
+  },
+  {
+    "tag": "multiseed",
+    "model": "FacebookAI/xlm-roberta-base",
+    "task": "sentiment_classification",
+    "lang": "swa",
+    "baseline": "naive",
+    "seed": 21,
+    "n_selected": 64,
+    "macro_f1": 0.15363511659807957
+  },
+  {
+    "tag": "multiseed",
+    "model": "FacebookAI/xlm-roberta-base",
+    "task": "sentiment_classification",
+    "lang": "swa",
+    "baseline": "naive",
+    "seed": 42,
+    "n_selected": 64,
+    "macro_f1": 0.1769397040850631
+  },
+  {
+    "tag": "multiseed",
+    "model": "FacebookAI/xlm-roberta-base",
+    "task": "sentiment_classification",
+    "lang": "swa",
+    "baseline": "alpagasus_style",
+    "seed": 21,
+    "n_selected": 64,
+    "macro_f1": 0.15363511659807957
+  },
+  {
+    "tag": "multiseed",
+    "model": "FacebookAI/xlm-roberta-base",
+    "task": "sentiment_classification",
+    "lang": "swa",
+    "baseline": "alpagasus_style",
+    "seed": 42,
+    "n_selected": 64,
+    "macro_f1": 0.0644122383252818
+  },
+  {
+    "tag": "multiseed",
+    "model": "FacebookAI/xlm-roberta-base",
+    "task": "sentiment_classification",
+    "lang": "swa",
+    "baseline": "deita_style",
+    "seed": 21,
+    "n_selected": 64,
+    "macro_f1": 0.15363511659807957
+  },
+  {
+    "tag": "multiseed",
+    "model": "FacebookAI/xlm-roberta-base",
+    "task": "sentiment_classification",
+    "lang": "swa",
+    "baseline": "deita_style",
+    "seed": 42,
+    "n_selected": 64,
+    "macro_f1": 0.14144300769885262
+  },
+  {
+    "tag": "multiseed",
+    "model": "FacebookAI/xlm-roberta-base",
+    "task": "sentiment_classification",
+    "lang": "swa",
+    "baseline": "cosda_equal_budget",
+    "seed": 21,
+    "n_selected": 64,
+    "macro_f1": 0.15363511659807957
+  },
+  {
+    "tag": "multiseed",
+    "model": "FacebookAI/xlm-roberta-base",
+    "task": "sentiment_classification",
+    "lang": "swa",
+    "baseline": "cosda_equal_budget",
+    "seed": 42,
+    "n_selected": 64,
+    "macro_f1": 0.0644122383252818
+  },
+  {
+    "tag": "multiseed",
+    "model": "FacebookAI/xlm-roberta-base",
+    "task": "sentiment_classification",
+    "lang": "swa",
+    "baseline": "cosda_rerank_v2",
+    "seed": 21,
+    "n_selected": 64,
+    "macro_f1": 0.15559777102330294
+  },
+  {
+    "tag": "multiseed",
+    "model": "FacebookAI/xlm-roberta-base",
+    "task": "sentiment_classification",
+    "lang": "swa",
+    "baseline": "cosda_rerank_v2",
+    "seed": 42,
+    "n_selected": 64,
+    "macro_f1": 0.0644122383252818
+  },
+  {
+    "tag": "multiseed",
+    "model": "FacebookAI/xlm-roberta-base",
+    "task": "sentiment_classification",
+    "lang": "swa",
+    "baseline": "alpagasus_hardreject",
+    "seed": 21,
+    "n_selected": 64,
+    "macro_f1": 0.15363511659807957
+  },
+  {
+    "tag": "multiseed",
+    "model": "FacebookAI/xlm-roberta-base",
+    "task": "sentiment_classification",
+    "lang": "swa",
+    "baseline": "alpagasus_hardreject",
+    "seed": 42,
+    "n_selected": 64,
+    "macro_f1": 0.0644122383252818
+  },
+  {
+    "tag": "multiseed",
+    "model": "FacebookAI/xlm-roberta-base",
+    "task": "sentiment_classification",
+    "lang": "swa",
+    "baseline": "less_style",
+    "seed": 21,
+    "n_selected": 64,
+    "macro_f1": 0.15363511659807957
+  },
+  {
+    "tag": "multiseed",
+    "model": "FacebookAI/xlm-roberta-base",
+    "task": "sentiment_classification",
+    "lang": "swa",
+    "baseline": "less_style",
+    "seed": 42,
+    "n_selected": 64,
+    "macro_f1": 0.0644122383252818
+  },
+  {
+    "tag": "multiseed",
+    "model": "FacebookAI/xlm-roberta-base",
+    "task": "sentiment_classification",
+    "lang": "yor",
+    "baseline": "naive",
+    "seed": 21,
+    "n_selected": 64,
+    "macro_f1": 0.19562419024443364
+  },
+  {
+    "tag": "multiseed",
+    "model": "FacebookAI/xlm-roberta-base",
+    "task": "sentiment_classification",
+    "lang": "yor",
+    "baseline": "naive",
+    "seed": 42,
+    "n_selected": 64,
+    "macro_f1": 0.22434796544620297
+  },
+  {
+    "tag": "multiseed",
+    "model": "FacebookAI/xlm-roberta-base",
+    "task": "sentiment_classification",
+    "lang": "yor",
+    "baseline": "alpagasus_style",
+    "seed": 21,
+    "n_selected": 64,
+    "macro_f1": 0.25819971205509956
+  },
+  {
+    "tag": "multiseed",
+    "model": "FacebookAI/xlm-roberta-base",
+    "task": "sentiment_classification",
+    "lang": "yor",
+    "baseline": "alpagasus_style",
+    "seed": 42,
+    "n_selected": 64,
+    "macro_f1": 0.11899563318777294
+  },
+  {
+    "tag": "multiseed",
+    "model": "FacebookAI/xlm-roberta-base",
+    "task": "sentiment_classification",
+    "lang": "yor",
+    "baseline": "deita_style",
+    "seed": 21,
+    "n_selected": 64,
+    "macro_f1": 0.29135823430355895
+  },
+  {
+    "tag": "multiseed",
+    "model": "FacebookAI/xlm-roberta-base",
+    "task": "sentiment_classification",
+    "lang": "yor",
+    "baseline": "deita_style",
+    "seed": 42,
+    "n_selected": 64,
+    "macro_f1": 0.26144727369131626
+  },
+  {
+    "tag": "multiseed",
+    "model": "FacebookAI/xlm-roberta-base",
+    "task": "sentiment_classification",
+    "lang": "yor",
+    "baseline": "cosda_equal_budget",
+    "seed": 21,
+    "n_selected": 64,
+    "macro_f1": 0.19872492613901416
+  },
+  {
+    "tag": "multiseed",
+    "model": "FacebookAI/xlm-roberta-base",
+    "task": "sentiment_classification",
+    "lang": "yor",
+    "baseline": "cosda_equal_budget",
+    "seed": 42,
+    "n_selected": 64,
+    "macro_f1": 0.11945098289792556
+  },
+  {
+    "tag": "multiseed",
+    "model": "FacebookAI/xlm-roberta-base",
+    "task": "sentiment_classification",
+    "lang": "yor",
+    "baseline": "cosda_rerank_v2",
+    "seed": 21,
+    "n_selected": 64,
+    "macro_f1": 0.24525500971039538
+  },
+  {
+    "tag": "multiseed",
+    "model": "FacebookAI/xlm-roberta-base",
+    "task": "sentiment_classification",
+    "lang": "yor",
+    "baseline": "cosda_rerank_v2",
+    "seed": 42,
+    "n_selected": 64,
+    "macro_f1": 0.11899563318777294
+  },
+  {
+    "tag": "multiseed",
+    "model": "FacebookAI/xlm-roberta-base",
+    "task": "sentiment_classification",
+    "lang": "yor",
+    "baseline": "alpagasus_hardreject",
+    "seed": 21,
+    "n_selected": 64,
+    "macro_f1": 0.19876677548059485
+  },
+  {
+    "tag": "multiseed",
+    "model": "FacebookAI/xlm-roberta-base",
+    "task": "sentiment_classification",
+    "lang": "yor",
+    "baseline": "alpagasus_hardreject",
+    "seed": 42,
+    "n_selected": 64,
+    "macro_f1": 0.17867016617295806
+  },
+  {
+    "tag": "multiseed",
+    "model": "FacebookAI/xlm-roberta-base",
+    "task": "sentiment_classification",
+    "lang": "yor",
+    "baseline": "less_style",
+    "seed": 21,
+    "n_selected": 64,
+    "macro_f1": 0.19876677548059485
+  },
+  {
+    "tag": "multiseed",
+    "model": "FacebookAI/xlm-roberta-base",
+    "task": "sentiment_classification",
+    "lang": "yor",
+    "baseline": "less_style",
+    "seed": 42,
+    "n_selected": 64,
+    "macro_f1": 0.11899563318777294
+  }
+]

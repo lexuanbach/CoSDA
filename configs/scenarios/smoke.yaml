@@ -1,0 +1,27 @@
+manifest_path: data/manifest/datasets.json
+output_dir: runs
+datasets: ["masakhane/afrisenti"]
+tasks: ["sentiment_classification"]
+languages: ["swa"]
+budgets: [8]
+multipliers: [1]
+seeds: [13]
+baselines: [gold_only, naive, random, cosda]
+sample_per_class_when_possible: false
+
+generation:
+  backend: heuristic
+  candidates_per_seed: 1
+  max_workers: 1
+
+judge:
+  backend: heuristic
+  max_workers: 1
+
+audit:
+  tau_l: 0.95
+  tau_c: 0.0
+  tau_h: 0.95
+  embedding_leakage_threshold: 0.85
+  embedder: hash
+  embedding_dim: 256

@@ -1,0 +1,40 @@
+manifest_path: data/manifest/datasets.json
+output_dir: runs
+datasets: ["masakhane/afrisenti"]
+tasks: ["sentiment_classification"]
+languages: ["swa"]
+budgets: [8]
+multipliers: [1]
+seeds: [13]
+baselines: [gold_only, naive, random, alpagasus_style, deita_style, cosda]
+sample_per_class_when_possible: false
+
+generation:
+  backend: openai_compatible
+  model: CohereLabs/aya-23-8B
+  endpoint_url: http://127.0.0.1:8000/v1/chat/completions
+  temperature: 0.8
+  top_p: 0.95
+  max_new_tokens: 384
+  candidates_per_seed: 1
+  max_workers: 8
+  request_timeout: 240
+  request_retries: 3
+
+judge:
+  backend: bedrock
+  model: anthropic.claude-3-5-sonnet-20241022-v2:0
+  aws_region: us-east-1
+  temperature: 0.0
+  max_tokens: 512
+  max_workers: 4
+  request_timeout: 180
+  request_retries: 3
+
+audit:
+  tau_l: 0.15
+  tau_c: 0.60
+  tau_h: 0.70
+  embedding_leakage_threshold: 0.85
+  embedder: labse
+  embedding_dim: 768

@@ -1,0 +1,7 @@
+=== JUDGE vs HUMAN GOLD ===
+news_topic_classification    accept human-correct label:  56.9%  | accept flipped(wrong) label:   6.2%  (n=160)
+sentiment_classification     accept human-correct label:  43.8%  | accept flipped(wrong) label:  21.9%  (n=160)
+
+OVERALL: accept-correct 50.3% | accept-flipped 14.1% | judge-human agreement (accuracy) 68.1%
+Judge discriminates human-correct vs wrong labels by 36.3 points.
+DONE_JUDGE_HUMAN

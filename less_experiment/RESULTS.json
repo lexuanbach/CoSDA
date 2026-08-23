@@ -1,0 +1,77 @@
+{
+  "experiment": "real LESS (Xia et al. 2024) vs the replay selectors, one identical training loop",
+  "seed": 13,
+  "cells": 8,
+  "budget": 64,
+  "backbone": "xlm-roberta-base",
+  "means": {
+    "less_style": 0.2971,
+    "naive": 0.2046,
+    "alpagasus_style": 0.288,
+    "less_topk": 0.138,
+    "less_balanced": 0.2782
+  },
+  "per_cell": {
+    "less_style": {
+      "news/amh": 0.8564,
+      "news/hau": 0.3374,
+      "news/swa": 0.0807,
+      "news/yor": 0.0652,
+      "sent/amh": 0.1727,
+      "sent/hau": 0.3951,
+      "sent/swa": 0.2775,
+      "sent/yor": 0.1921
+    },
+    "naive": {
+      "news/amh": 0.5268,
+      "news/hau": 0.0388,
+      "news/swa": 0.0463,
+      "news/yor": 0.0652,
+      "sent/amh": 0.0672,
+      "sent/hau": 0.4612,
+      "sent/swa": 0.2294,
+      "sent/yor": 0.2021
+    },
+    "alpagasus_style": {
+      "news/amh": 0.7571,
+      "news/hau": 0.3547,
+      "news/swa": 0.1353,
+      "news/yor": 0.1428,
+      "sent/amh": 0.0672,
+      "sent/hau": 0.4202,
+      "sent/swa": 0.2483,
+      "sent/yor": 0.1784
+    },
+    "less_topk": {
+      "news/amh": 0.1236,
+      "news/hau": 0.0375,
+      "news/swa": 0.1815,
+      "news/yor": 0.0814,
+      "sent/amh": 0.0672,
+      "sent/hau": 0.1658,
+      "sent/swa": 0.2483,
+      "sent/yor": 0.1988
+    },
+    "less_balanced": {
+      "news/amh": 0.6835,
+      "news/hau": 0.3136,
+      "news/swa": 0.1036,
+      "news/yor": 0.0652,
+      "sent/amh": 0.1104,
+      "sent/hau": 0.5253,
+      "sent/swa": 0.2482,
+      "sent/yor": 0.1757
+    }
+  },
+  "sign_diagnostic": {
+    "cell": "news/swa",
+    "top_64": 0.1813,
+    "bottom_64": 0.0115,
+    "note": "top-k beats bottom-k 16x, so the influence ranking is informative and correctly oriented"
+  },
+  "label_collapse_topk": {
+    "mean_largest_class_share": 0.77,
+    "sentiment_cells": "63 of 64 selected examples share one label in all four",
+    "note": "measured by recomputing top-k from scores/, not from selected/ (which the --balanced runs overwrite)"
+  }
+}

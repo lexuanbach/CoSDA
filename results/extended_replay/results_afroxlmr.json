@@ -1,0 +1,562 @@
+[
+  {
+    "tag": "afroxlmr",
+    "model": "Davlan/afro-xlmr-base",
+    "task": "news_topic_classification",
+    "lang": "amh",
+    "baseline": "naive",
+    "seed": 13,
+    "n_selected": 64,
+    "macro_f1": 0.5907467993942496
+  },
+  {
+    "tag": "afroxlmr",
+    "model": "Davlan/afro-xlmr-base",
+    "task": "news_topic_classification",
+    "lang": "amh",
+    "baseline": "alpagasus_style",
+    "seed": 13,
+    "n_selected": 64,
+    "macro_f1": 0.28484634263404607
+  },
+  {
+    "tag": "afroxlmr",
+    "model": "Davlan/afro-xlmr-base",
+    "task": "news_topic_classification",
+    "lang": "amh",
+    "baseline": "deita_style",
+    "seed": 13,
+    "n_selected": 64,
+    "macro_f1": 0.606864064778223
+  },
+  {
+    "tag": "afroxlmr",
+    "model": "Davlan/afro-xlmr-base",
+    "task": "news_topic_classification",
+    "lang": "amh",
+    "baseline": "cosda_equal_budget",
+    "seed": 13,
+    "n_selected": 64,
+    "macro_f1": 0.4989848543296962
+  },
+  {
+    "tag": "afroxlmr",
+    "model": "Davlan/afro-xlmr-base",
+    "task": "news_topic_classification",
+    "lang": "amh",
+    "baseline": "cosda_rerank_v2",
+    "seed": 13,
+    "n_selected": 64,
+    "macro_f1": 0.6120260989330721
+  },
+  {
+    "tag": "afroxlmr",
+    "model": "Davlan/afro-xlmr-base",
+    "task": "news_topic_classification",
+    "lang": "amh",
+    "baseline": "alpagasus_hardreject",
+    "seed": 13,
+    "n_selected": 31,
+    "macro_f1": 0.44251174153872075
+  },
+  {
+    "tag": "afroxlmr",
+    "model": "Davlan/afro-xlmr-base",
+    "task": "news_topic_classification",
+    "lang": "amh",
+    "baseline": "less_style",
+    "seed": 13,
+    "n_selected": 64,
+    "macro_f1": 0.37614157257348313
+  },
+  {
+    "tag": "afroxlmr",
+    "model": "Davlan/afro-xlmr-base",
+    "task": "news_topic_classification",
+    "lang": "hau",
+    "baseline": "naive",
+    "seed": 13,
+    "n_selected": 64,
+    "macro_f1": 0.20466345147535359
+  },
+  {
+    "tag": "afroxlmr",
+    "model": "Davlan/afro-xlmr-base",
+    "task": "news_topic_classification",
+    "lang": "hau",
+    "baseline": "alpagasus_style",
+    "seed": 13,
+    "n_selected": 64,
+    "macro_f1": 0.17999329659199054
+  },
+  {
+    "tag": "afroxlmr",
+    "model": "Davlan/afro-xlmr-base",
+    "task": "news_topic_classification",
+    "lang": "hau",
+    "baseline": "deita_style",
+    "seed": 13,
+    "n_selected": 64,
+    "macro_f1": 0.24424330196112135
+  },
+  {
+    "tag": "afroxlmr",
+    "model": "Davlan/afro-xlmr-base",
+    "task": "news_topic_classification",
+    "lang": "hau",
+    "baseline": "cosda_equal_budget",
+    "seed": 13,
+    "n_selected": 64,
+    "macro_f1": 0.2732725391905193
+  },
+  {
+    "tag": "afroxlmr",
+    "model": "Davlan/afro-xlmr-base",
+    "task": "news_topic_classification",
+    "lang": "hau",
+    "baseline": "cosda_rerank_v2",
+    "seed": 13,
+    "n_selected": 64,
+    "macro_f1": 0.2910271317759799
+  },
+  {
+    "tag": "afroxlmr",
+    "model": "Davlan/afro-xlmr-base",
+    "task": "news_topic_classification",
+    "lang": "hau",
+    "baseline": "alpagasus_hardreject",
+    "seed": 13,
+    "n_selected": 50,
+    "macro_f1": 0.26209234638783097
+  },
+  {
+    "tag": "afroxlmr",
+    "model": "Davlan/afro-xlmr-base",
+    "task": "news_topic_classification",
+    "lang": "hau",
+    "baseline": "less_style",
+    "seed": 13,
+    "n_selected": 64,
+    "macro_f1": 0.3141314575951691
+  },
+  {
+    "tag": "afroxlmr",
+    "model": "Davlan/afro-xlmr-base",
+    "task": "news_topic_classification",
+    "lang": "swa",
+    "baseline": "naive",
+    "seed": 13,
+    "n_selected": 64,
+    "macro_f1": 0.31104039320806703
+  },
+  {
+    "tag": "afroxlmr",
+    "model": "Davlan/afro-xlmr-base",
+    "task": "news_topic_classification",
+    "lang": "swa",
+    "baseline": "alpagasus_style",
+    "seed": 13,
+    "n_selected": 64,
+    "macro_f1": 0.21800497256796283
+  },
+  {
+    "tag": "afroxlmr",
+    "model": "Davlan/afro-xlmr-base",
+    "task": "news_topic_classification",
+    "lang": "swa",
+    "baseline": "deita_style",
+    "seed": 13,
+    "n_selected": 64,
+    "macro_f1": 0.2474908838250807
+  },
+  {
+    "tag": "afroxlmr",
+    "model": "Davlan/afro-xlmr-base",
+    "task": "news_topic_classification",
+    "lang": "swa",
+    "baseline": "cosda_equal_budget",
+    "seed": 13,
+    "n_selected": 64,
+    "macro_f1": 0.37379825023412305
+  },
+  {
+    "tag": "afroxlmr",
+    "model": "Davlan/afro-xlmr-base",
+    "task": "news_topic_classification",
+    "lang": "swa",
+    "baseline": "cosda_rerank_v2",
+    "seed": 13,
+    "n_selected": 64,
+    "macro_f1": 0.3453004172956228
+  },
+  {
+    "tag": "afroxlmr",
+    "model": "Davlan/afro-xlmr-base",
+    "task": "news_topic_classification",
+    "lang": "swa",
+    "baseline": "alpagasus_hardreject",
+    "seed": 13,
+    "n_selected": 64,
+    "macro_f1": 0.23158368311863753
+  },
+  {
+    "tag": "afroxlmr",
+    "model": "Davlan/afro-xlmr-base",
+    "task": "news_topic_classification",
+    "lang": "swa",
+    "baseline": "less_style",
+    "seed": 13,
+    "n_selected": 64,
+    "macro_f1": 0.3034275422796114
+  },
+  {
+    "tag": "afroxlmr",
+    "model": "Davlan/afro-xlmr-base",
+    "task": "news_topic_classification",
+    "lang": "yor",
+    "baseline": "naive",
+    "seed": 13,
+    "n_selected": 64,
+    "macro_f1": 0.23761323178175892
+  },
+  {
+    "tag": "afroxlmr",
+    "model": "Davlan/afro-xlmr-base",
+    "task": "news_topic_classification",
+    "lang": "yor",
+    "baseline": "alpagasus_style",
+    "seed": 13,
+    "n_selected": 64,
+    "macro_f1": 0.45457219005606103
+  },
+  {
+    "tag": "afroxlmr",
+    "model": "Davlan/afro-xlmr-base",
+    "task": "news_topic_classification",
+    "lang": "yor",
+    "baseline": "deita_style",
+    "seed": 13,
+    "n_selected": 64,
+    "macro_f1": 0.3694138826652836
+  },
+  {
+    "tag": "afroxlmr",
+    "model": "Davlan/afro-xlmr-base",
+    "task": "news_topic_classification",
+    "lang": "yor",
+    "baseline": "cosda_equal_budget",
+    "seed": 13,
+    "n_selected": 64,
+    "macro_f1": 0.3114059981334266
+  },
+  {
+    "tag": "afroxlmr",
+    "model": "Davlan/afro-xlmr-base",
+    "task": "news_topic_classification",
+    "lang": "yor",
+    "baseline": "cosda_rerank_v2",
+    "seed": 13,
+    "n_selected": 64,
+    "macro_f1": 0.30359595154163876
+  },
+  {
+    "tag": "afroxlmr",
+    "model": "Davlan/afro-xlmr-base",
+    "task": "news_topic_classification",
+    "lang": "yor",
+    "baseline": "alpagasus_hardreject",
+    "seed": 13,
+    "n_selected": 64,
+    "macro_f1": 0.38039668091608025
+  },
+  {
+    "tag": "afroxlmr",
+    "model": "Davlan/afro-xlmr-base",
+    "task": "news_topic_classification",
+    "lang": "yor",
+    "baseline": "less_style",
+    "seed": 13,
+    "n_selected": 64,
+    "macro_f1": 0.43721999651610927
+  },
+  {
+    "tag": "afroxlmr",
+    "model": "Davlan/afro-xlmr-base",
+    "task": "sentiment_classification",
+    "lang": "amh",
+    "baseline": "naive",
+    "seed": 13,
+    "n_selected": 64,
+    "macro_f1": 0.16203989080508566
+  },
+  {
+    "tag": "afroxlmr",
+    "model": "Davlan/afro-xlmr-base",
+    "task": "sentiment_classification",
+    "lang": "amh",
+    "baseline": "alpagasus_style",
+    "seed": 13,
+    "n_selected": 64,
+    "macro_f1": 0.3635706218003644
+  },
+  {
+    "tag": "afroxlmr",
+    "model": "Davlan/afro-xlmr-base",
+    "task": "sentiment_classification",
+    "lang": "amh",
+    "baseline": "deita_style",
+    "seed": 13,
+    "n_selected": 64,
+    "macro_f1": 0.19128078981090868
+  },
+  {
+    "tag": "afroxlmr",
+    "model": "Davlan/afro-xlmr-base",
+    "task": "sentiment_classification",
+    "lang": "amh",
+    "baseline": "cosda_equal_budget",
+    "seed": 13,
+    "n_selected": 64,
+    "macro_f1": 0.2921955383588287
+  },
+  {
+    "tag": "afroxlmr",
+    "model": "Davlan/afro-xlmr-base",
+    "task": "sentiment_classification",
+    "lang": "amh",
+    "baseline": "cosda_rerank_v2",
+    "seed": 13,
+    "n_selected": 64,
+    "macro_f1": 0.1905107066407171
+  },
+  {
+    "tag": "afroxlmr",
+    "model": "Davlan/afro-xlmr-base",
+    "task": "sentiment_classification",
+    "lang": "amh",
+    "baseline": "alpagasus_hardreject",
+    "seed": 13,
+    "n_selected": 64,
+    "macro_f1": 0.3290309323395212
+  },
+  {
+    "tag": "afroxlmr",
+    "model": "Davlan/afro-xlmr-base",
+    "task": "sentiment_classification",
+    "lang": "amh",
+    "baseline": "less_style",
+    "seed": 13,
+    "n_selected": 64,
+    "macro_f1": 0.44349535110784033
+  },
+  {
+    "tag": "afroxlmr",
+    "model": "Davlan/afro-xlmr-base",
+    "task": "sentiment_classification",
+    "lang": "hau",
+    "baseline": "naive",
+    "seed": 13,
+    "n_selected": 64,
+    "macro_f1": 0.25701497306999554
+  },
+  {
+    "tag": "afroxlmr",
+    "model": "Davlan/afro-xlmr-base",
+    "task": "sentiment_classification",
+    "lang": "hau",
+    "baseline": "alpagasus_style",
+    "seed": 13,
+    "n_selected": 64,
+    "macro_f1": 0.36084931776373214
+  },
+  {
+    "tag": "afroxlmr",
+    "model": "Davlan/afro-xlmr-base",
+    "task": "sentiment_classification",
+    "lang": "hau",
+    "baseline": "deita_style",
+    "seed": 13,
+    "n_selected": 64,
+    "macro_f1": 0.45929475879994275
+  },
+  {
+    "tag": "afroxlmr",
+    "model": "Davlan/afro-xlmr-base",
+    "task": "sentiment_classification",
+    "lang": "hau",
+    "baseline": "cosda_equal_budget",
+    "seed": 13,
+    "n_selected": 64,
+    "macro_f1": 0.41053236452322417
+  },
+  {
+    "tag": "afroxlmr",
+    "model": "Davlan/afro-xlmr-base",
+    "task": "sentiment_classification",
+    "lang": "hau",
+    "baseline": "cosda_rerank_v2",
+    "seed": 13,
+    "n_selected": 64,
+    "macro_f1": 0.35018555183582184
+  },
+  {
+    "tag": "afroxlmr",
+    "model": "Davlan/afro-xlmr-base",
+    "task": "sentiment_classification",
+    "lang": "hau",
+    "baseline": "alpagasus_hardreject",
+    "seed": 13,
+    "n_selected": 64,
+    "macro_f1": 0.34748529524332744
+  },
+  {
+    "tag": "afroxlmr",
+    "model": "Davlan/afro-xlmr-base",
+    "task": "sentiment_classification",
+    "lang": "hau",
+    "baseline": "less_style",
+    "seed": 13,
+    "n_selected": 64,
+    "macro_f1": 0.3781828377972889
+  },
+  {
+    "tag": "afroxlmr",
+    "model": "Davlan/afro-xlmr-base",
+    "task": "sentiment_classification",
+    "lang": "swa",
+    "baseline": "naive",
+    "seed": 13,
+    "n_selected": 64,
+    "macro_f1": 0.24183128718526947
+  },
+  {
+    "tag": "afroxlmr",
+    "model": "Davlan/afro-xlmr-base",
+    "task": "sentiment_classification",
+    "lang": "swa",
+    "baseline": "alpagasus_style",
+    "seed": 13,
+    "n_selected": 64,
+    "macro_f1": 0.36231722527738813
+  },
+  {
+    "tag": "afroxlmr",
+    "model": "Davlan/afro-xlmr-base",
+    "task": "sentiment_classification",
+    "lang": "swa",
+    "baseline": "deita_style",
+    "seed": 13,
+    "n_selected": 64,
+    "macro_f1": 0.15154780564263323
+  },
+  {
+    "tag": "afroxlmr",
+    "model": "Davlan/afro-xlmr-base",
+    "task": "sentiment_classification",
+    "lang": "swa",
+    "baseline": "cosda_equal_budget",
+    "seed": 13,
+    "n_selected": 64,
+    "macro_f1": 0.24919936292683573
+  },
+  {
+    "tag": "afroxlmr",
+    "model": "Davlan/afro-xlmr-base",
+    "task": "sentiment_classification",
+    "lang": "swa",
+    "baseline": "cosda_rerank_v2",
+    "seed": 13,
+    "n_selected": 64,
+    "macro_f1": 0.31756714500121436
+  },
+  {
+    "tag": "afroxlmr",
+    "model": "Davlan/afro-xlmr-base",
+    "task": "sentiment_classification",
+    "lang": "swa",
+    "baseline": "alpagasus_hardreject",
+    "seed": 13,
+    "n_selected": 64,
+    "macro_f1": 0.3742965979026402
+  },
+  {
+    "tag": "afroxlmr",
+    "model": "Davlan/afro-xlmr-base",
+    "task": "sentiment_classification",
+    "lang": "swa",
+    "baseline": "less_style",
+    "seed": 13,
+    "n_selected": 64,
+    "macro_f1": 0.2677211958159957
+  },
+  {
+    "tag": "afroxlmr",
+    "model": "Davlan/afro-xlmr-base",
+    "task": "sentiment_classification",
+    "lang": "yor",
+    "baseline": "naive",
+    "seed": 13,
+    "n_selected": 64,
+    "macro_f1": 0.1198441657625331
+  },
+  {
+    "tag": "afroxlmr",
+    "model": "Davlan/afro-xlmr-base",
+    "task": "sentiment_classification",
+    "lang": "yor",
+    "baseline": "alpagasus_style",
+    "seed": 13,
+    "n_selected": 64,
+    "macro_f1": 0.3465067518387895
+  },
+  {
+    "tag": "afroxlmr",
+    "model": "Davlan/afro-xlmr-base",
+    "task": "sentiment_classification",
+    "lang": "yor",
+    "baseline": "deita_style",
+    "seed": 13,
+    "n_selected": 64,
+    "macro_f1": 0.3275585527367956
+  },
+  {
+    "tag": "afroxlmr",
+    "model": "Davlan/afro-xlmr-base",
+    "task": "sentiment_classification",
+    "lang": "yor",
+    "baseline": "cosda_equal_budget",
+    "seed": 13,
+    "n_selected": 64,
+    "macro_f1": 0.3181256424965355
+  },
+  {
+    "tag": "afroxlmr",
+    "model": "Davlan/afro-xlmr-base",
+    "task": "sentiment_classification",
+    "lang": "yor",
+    "baseline": "cosda_rerank_v2",
+    "seed": 13,
+    "n_selected": 64,
+    "macro_f1": 0.3382540088642018
+  },
+  {
+    "tag": "afroxlmr",
+    "model": "Davlan/afro-xlmr-base",
+    "task": "sentiment_classification",
+    "lang": "yor",
+    "baseline": "alpagasus_hardreject",
+    "seed": 13,
+    "n_selected": 64,
+    "macro_f1": 0.34381489597438736
+  },
+  {
+    "tag": "afroxlmr",
+    "model": "Davlan/afro-xlmr-base",
+    "task": "sentiment_classification",
+    "lang": "yor",
+    "baseline": "less_style",
+    "seed": 13,
+    "n_selected": 64,
+    "macro_f1": 0.2626010542011174
+  }
+]

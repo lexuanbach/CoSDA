@@ -1,0 +1,13 @@
+description: >
+  Use this file as the base for ablations. Generate the default audit log once,
+  then rerun `cosda select` with adjusted thresholds/weights or by zeroing one
+  score in the audit JSONL if you need exact paper-style component removal.
+ablations:
+  - cosda_full
+  - no_leakage_filter
+  - no_counterfactual_score
+  - no_shortcut_score
+  - no_diversity_score
+  - no_class_balancing
+  - hard_filter_only
+  - soft_rank_only

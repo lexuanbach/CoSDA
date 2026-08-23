@@ -1,0 +1,770 @@
+[
+ {
+  "candidate_id": "71334dc41259e0d7",
+  "influence_score": -0.015664005652070045
+ },
+ {
+  "candidate_id": "b8f41c14d5bf8270",
+  "influence_score": -0.015056317672133446
+ },
+ {
+  "candidate_id": "bc701969a5eeda1d",
+  "influence_score": -0.013922220095992088
+ },
+ {
+  "candidate_id": "2ad610e3cff8504a",
+  "influence_score": 0.06078047305345535
+ },
+ {
+  "candidate_id": "5455ce2cb15781d9",
+  "influence_score": 0.06081685051321983
+ },
+ {
+  "candidate_id": "9029a6235ae5d52a",
+  "influence_score": 0.06021319329738617
+ },
+ {
+  "candidate_id": "3c008d57c4034f32",
+  "influence_score": 0.05940339341759682
+ },
+ {
+  "candidate_id": "5a61a4c4010d6c42",
+  "influence_score": 0.05951342359185219
+ },
+ {
+  "candidate_id": "a7a73adf85182b18",
+  "influence_score": 0.059095557779073715
+ },
+ {
+  "candidate_id": "37ff00db4088410e",
+  "influence_score": 0.059155143797397614
+ },
+ {
+  "candidate_id": "7a0fa701e97a1dfa",
+  "influence_score": 0.06023179739713669
+ },
+ {
+  "candidate_id": "997a047e01d1c4df",
+  "influence_score": 0.05929572880268097
+ },
+ {
+  "candidate_id": "4916223a1157d932",
+  "influence_score": 0.05920607969164848
+ },
+ {
+  "candidate_id": "e5e9b0fbafe3e761",
+  "influence_score": 0.05910250544548035
+ },
+ {
+  "candidate_id": "f6ff2502bf8e8899",
+  "influence_score": 0.05894434452056885
+ },
+ {
+  "candidate_id": "39d6f9645ef70a66",
+  "influence_score": 0.1014527827501297
+ },
+ {
+  "candidate_id": "ea5c772dbbafa38a",
+  "influence_score": 0.10262104868888855
+ },
+ {
+  "candidate_id": "f6700455f128bba3",
+  "influence_score": 0.10287006944417953
+ },
+ {
+  "candidate_id": "51357d6fd09fa4de",
+  "influence_score": -0.02450297400355339
+ },
+ {
+  "candidate_id": "6aad2408dce85f7e",
+  "influence_score": -0.024554548785090446
+ },
+ {
+  "candidate_id": "ab2c0fa23e1ed02e",
+  "influence_score": -0.023416100069880486
+ },
+ {
+  "candidate_id": "283c8f6edaddf1ec",
+  "influence_score": 0.060513947159051895
+ },
+ {
+  "candidate_id": "d3068b7ce78bff7c",
+  "influence_score": 0.05972863733768463
+ },
+ {
+  "candidate_id": "e1d84a8bf4ca44e5",
+  "influence_score": 0.059231217950582504
+ },
+ {
+  "candidate_id": "00315385428c0e12",
+  "influence_score": 0.024843426421284676
+ },
+ {
+  "candidate_id": "1f44959cceab0b44",
+  "influence_score": 0.025220945477485657
+ },
+ {
+  "candidate_id": "5c5cd1df2b18d6a4",
+  "influence_score": 0.025011884048581123
+ },
+ {
+  "candidate_id": "00b5f0f680e1af18",
+  "influence_score": 0.025043684989213943
+ },
+ {
+  "candidate_id": "62ecbf510b6af838",
+  "influence_score": 0.02465093694627285
+ },
+ {
+  "candidate_id": "8fae23461be16375",
+  "influence_score": 0.024071769788861275
+ },
+ {
+  "candidate_id": "1f243b80f290bf18",
+  "influence_score": -0.023455314338207245
+ },
+ {
+  "candidate_id": "86de3591dab99a9f",
+  "influence_score": -0.021294165402650833
+ },
+ {
+  "candidate_id": "fa43dac41562fbb4",
+  "influence_score": -0.022878373041749
+ },
+ {
+  "candidate_id": "0965b6946b81d4a6",
+  "influence_score": -0.013901972211897373
+ },
+ {
+  "candidate_id": "a1121ed123f704a8",
+  "influence_score": -0.01433624792844057
+ },
+ {
+  "candidate_id": "cf447d06631b1920",
+  "influence_score": -0.013529826886951923
+ },
+ {
+  "candidate_id": "680c9c81b1096aba",
+  "influence_score": 0.02553078532218933
+ },
+ {
+  "candidate_id": "792213078a21b2fc",
+  "influence_score": 0.025065787136554718
+ },
+ {
+  "candidate_id": "980a6aa451c9e4c4",
+  "influence_score": 0.025278417393565178
+ },
+ {
+  "candidate_id": "296e8c10e592b754",
+  "influence_score": 0.05897993966937065
+ },
+ {
+  "candidate_id": "39ac90f3b9f346ab",
+  "influence_score": 0.059176914393901825
+ },
+ {
+  "candidate_id": "ff00b91578bb6356",
+  "influence_score": 0.05876877158880234
+ },
+ {
+  "candidate_id": "016c9509bbac60a2",
+  "influence_score": 0.02522413432598114
+ },
+ {
+  "candidate_id": "215a3884457d140d",
+  "influence_score": 0.0249316468834877
+ },
+ {
+  "candidate_id": "fce7c705a49c4e8f",
+  "influence_score": 0.024411559104919434
+ },
+ {
+  "candidate_id": "4873dcae3a8a5886",
+  "influence_score": -0.01511039026081562
+ },
+ {
+  "candidate_id": "9dc1302337050306",
+  "influence_score": -0.014484409242868423
+ },
+ {
+  "candidate_id": "da7bbbf5c6909a59",
+  "influence_score": -0.016857583075761795
+ },
+ {
+  "candidate_id": "43bb8e275ed9fe88",
+  "influence_score": 0.060577742755413055
+ },
+ {
+  "candidate_id": "e8c484c9c4fd78d1",
+  "influence_score": 0.06000000238418579
+ },
+ {
+  "candidate_id": "ee3506f7e1cb35a2",
+  "influence_score": 0.06069698557257652
+ },
+ {
+  "candidate_id": "62152c20faffb56d",
+  "influence_score": 0.02562122792005539
+ },
+ {
+  "candidate_id": "a83615386e8c6c8a",
+  "influence_score": 0.025055959820747375
+ },
+ {
+  "candidate_id": "d1bd5dcbe0bfe5c7",
+  "influence_score": 0.025367647409439087
+ },
+ {
+  "candidate_id": "48446f618b5f0d7d",
+  "influence_score": -0.02380320057272911
+ },
+ {
+  "candidate_id": "abd6ee0732870342",
+  "influence_score": -0.02324283868074417
+ },
+ {
+  "candidate_id": "ef0d7b30d342fa5a",
+  "influence_score": -0.021978819742798805
+ },
+ {
+  "candidate_id": "497a241143730c0b",
+  "influence_score": -0.02503480203449726
+ },
+ {
+  "candidate_id": "5ba4ad3318aea8aa",
+  "influence_score": -0.025898505002260208
+ },
+ {
+  "candidate_id": "60fd731a2229ec1c",
+  "influence_score": -0.0242282897233963
+ },
+ {
+  "candidate_id": "a8be84c98431cdb8",
+  "influence_score": 0.10182508826255798
+ },
+ {
+  "candidate_id": "b9efa8736d3a6396",
+  "influence_score": 0.10229649394750595
+ },
+ {
+  "candidate_id": "c47b34f0648b8bc8",
+  "influence_score": 0.10168824344873428
+ },
+ {
+  "candidate_id": "1ea4bb348dff208a",
+  "influence_score": 0.025102956220507622
+ },
+ {
+  "candidate_id": "57080370545c41e6",
+  "influence_score": 0.02484637312591076
+ },
+ {
+  "candidate_id": "a2e22570c1ccbdbc",
+  "influence_score": 0.024599507451057434
+ },
+ {
+  "candidate_id": "c797f0dca7f24e6e",
+  "influence_score": 0.10196959972381592
+ },
+ {
+  "candidate_id": "cb864e8665d8fb89",
+  "influence_score": 0.1015046238899231
+ },
+ {
+  "candidate_id": "df168b04d50f7f35",
+  "influence_score": 0.10064806044101715
+ },
+ {
+  "candidate_id": "29088dccc168e4a0",
+  "influence_score": -0.022207891568541527
+ },
+ {
+  "candidate_id": "86785990929492f8",
+  "influence_score": -0.024373482912778854
+ },
+ {
+  "candidate_id": "fd2a33edc00f66e9",
+  "influence_score": -0.025195391848683357
+ },
+ {
+  "candidate_id": "3cdf67e8bded3a49",
+  "influence_score": -0.02227502502501011
+ },
+ {
+  "candidate_id": "7b122d3c7ff204aa",
+  "influence_score": -0.025957219302654266
+ },
+ {
+  "candidate_id": "821dd282183f8fc6",
+  "influence_score": -0.022958986461162567
+ },
+ {
+  "candidate_id": "349b9dfe38996ec0",
+  "influence_score": -0.023027734830975533
+ },
+ {
+  "candidate_id": "3f0cad45d1b55a22",
+  "influence_score": -0.022087568417191505
+ },
+ {
+  "candidate_id": "5839999e1ea73fe8",
+  "influence_score": -0.02186185121536255
+ },
+ {
+  "candidate_id": "16dfbdbda5d16171",
+  "influence_score": 0.10274698585271835
+ },
+ {
+  "candidate_id": "5554f5d6339bd4c8",
+  "influence_score": 0.10210834443569183
+ },
+ {
+  "candidate_id": "67658bb4aa117c23",
+  "influence_score": 0.10201943665742874
+ },
+ {
+  "candidate_id": "6cabd6a1309561ed",
+  "influence_score": -0.01549999974668026
+ },
+ {
+  "candidate_id": "900d2277c4ad8963",
+  "influence_score": -0.013718094676733017
+ },
+ {
+  "candidate_id": "c41cc50b87ea4756",
+  "influence_score": -0.014383779838681221
+ },
+ {
+  "candidate_id": "03b4a83b905679f4",
+  "influence_score": 0.1035035029053688
+ },
+ {
+  "candidate_id": "231c95f6f63dea2d",
+  "influence_score": 0.10285709798336029
+ },
+ {
+  "candidate_id": "d0812d0dc22ddbce",
+  "influence_score": 0.10400836169719696
+ },
+ {
+  "candidate_id": "042a336bc22f5291",
+  "influence_score": 0.1033484935760498
+ },
+ {
+  "candidate_id": "8cb48a3020efd4d5",
+  "influence_score": 0.10212826728820801
+ },
+ {
+  "candidate_id": "c699a468aa3d77c3",
+  "influence_score": 0.1034746989607811
+ },
+ {
+  "candidate_id": "31d44bc68cbd3ef8",
+  "influence_score": -0.023266205564141273
+ },
+ {
+  "candidate_id": "942ea9248ad05dcd",
+  "influence_score": -0.023320967331528664
+ },
+ {
+  "candidate_id": "e2bd8aa21e5a82ed",
+  "influence_score": -0.022669989615678787
+ },
+ {
+  "candidate_id": "8cef4c3a93328faf",
+  "influence_score": 0.06047411635518074
+ },
+ {
+  "candidate_id": "aa97920ea5ad623b",
+  "influence_score": 0.06024358794093132
+ },
+ {
+  "candidate_id": "c7a490e12167da9e",
+  "influence_score": 0.06070448458194733
+ },
+ {
+  "candidate_id": "53a834b40ace5968",
+  "influence_score": 0.06093752384185791
+ },
+ {
+  "candidate_id": "747f2ffafa224a95",
+  "influence_score": 0.06102078780531883
+ },
+ {
+  "candidate_id": "986a44cf5527eb61",
+  "influence_score": 0.06055144965648651
+ },
+ {
+  "candidate_id": "186296d794c6c48b",
+  "influence_score": 0.02571168914437294
+ },
+ {
+  "candidate_id": "8e3f9089f13be760",
+  "influence_score": 0.025828726589679718
+ },
+ {
+  "candidate_id": "9a4d6b6e5dc71304",
+  "influence_score": 0.025899194180965424
+ },
+ {
+  "candidate_id": "46447851bb7716b6",
+  "influence_score": 0.10322125256061554
+ },
+ {
+  "candidate_id": "cf7746e4bcb9d0a4",
+  "influence_score": 0.1027364507317543
+ },
+ {
+  "candidate_id": "da9b1ed1659573c9",
+  "influence_score": 0.10239670425653458
+ },
+ {
+  "candidate_id": "3d913c4365f517e5",
+  "influence_score": 0.05935326963663101
+ },
+ {
+  "candidate_id": "9b588eecd32f56c5",
+  "influence_score": 0.058786846697330475
+ },
+ {
+  "candidate_id": "da86306975ada8aa",
+  "influence_score": 0.05915848910808563
+ },
+ {
+  "candidate_id": "220db80021947a48",
+  "influence_score": -0.01505773700773716
+ },
+ {
+  "candidate_id": "8853be304e9171b0",
+  "influence_score": -0.014061881229281425
+ },
+ {
+  "candidate_id": "daf34691383a4587",
+  "influence_score": -0.015759151428937912
+ },
+ {
+  "candidate_id": "4b6a890aa322c64e",
+  "influence_score": 0.10244342684745789
+ },
+ {
+  "candidate_id": "e73c40e111fe4893",
+  "influence_score": 0.10247436165809631
+ },
+ {
+  "candidate_id": "ec627dcd60b53d7b",
+  "influence_score": 0.10204619914293289
+ },
+ {
+  "candidate_id": "0e2bf1f7eb80a327",
+  "influence_score": 0.025214537978172302
+ },
+ {
+  "candidate_id": "d94e44c7f7c54c40",
+  "influence_score": 0.02477271296083927
+ },
+ {
+  "candidate_id": "e3c69e31cfa90d82",
+  "influence_score": 0.024922378361225128
+ },
+ {
+  "candidate_id": "82105699d47aaf98",
+  "influence_score": 0.10397172719240189
+ },
+ {
+  "candidate_id": "9f902fc26303ba9b",
+  "influence_score": 0.1037144809961319
+ },
+ {
+  "candidate_id": "f065afe4227581fd",
+  "influence_score": 0.10224226117134094
+ },
+ {
+  "candidate_id": "7106bef8d3f16850",
+  "influence_score": -0.012976083904504776
+ },
+ {
+  "candidate_id": "d01629fc44b50883",
+  "influence_score": -0.014415585435926914
+ },
+ {
+  "candidate_id": "f81ba7829d305e30",
+  "influence_score": -0.01368115097284317
+ },
+ {
+  "candidate_id": "6a799c9ae9ed94c1",
+  "influence_score": 0.025312945246696472
+ },
+ {
+  "candidate_id": "71df155f65a7eb77",
+  "influence_score": 0.02499689906835556
+ },
+ {
+  "candidate_id": "e03be92c17dee207",
+  "influence_score": 0.025117995217442513
+ },
+ {
+  "candidate_id": "5723d5cd6d9c78f4",
+  "influence_score": -0.013512440025806427
+ },
+ {
+  "candidate_id": "5c4489ad1f279ea1",
+  "influence_score": -0.01519417017698288
+ },
+ {
+  "candidate_id": "ddc1732a9b833a09",
+  "influence_score": -0.013059817254543304
+ },
+ {
+  "candidate_id": "22a09737c22e6fe7",
+  "influence_score": 0.025076519697904587
+ },
+ {
+  "candidate_id": "605a1f5d3cc4bdd2",
+  "influence_score": 0.02550673671066761
+ },
+ {
+  "candidate_id": "d0b29c72d05b82d6",
+  "influence_score": 0.025397542864084244
+ },
+ {
+  "candidate_id": "b4fcb71c4c4134a0",
+  "influence_score": 0.025503039360046387
+ },
+ {
+  "candidate_id": "d3f967f084100f7a",
+  "influence_score": 0.025515737012028694
+ },
+ {
+  "candidate_id": "dc8579e739c03246",
+  "influence_score": 0.02547425590455532
+ },
+ {
+  "candidate_id": "25f67ba92ad6e4ae",
+  "influence_score": 0.10173201560974121
+ },
+ {
+  "candidate_id": "4d5e701d6f3dca38",
+  "influence_score": 0.10219025611877441
+ },
+ {
+  "candidate_id": "901cc97f749ca3e4",
+  "influence_score": 0.10184504836797714
+ },
+ {
+  "candidate_id": "04f9163e08a8a74b",
+  "influence_score": 0.10147804766893387
+ },
+ {
+  "candidate_id": "2ac92b128e5a036e",
+  "influence_score": 0.1020878255367279
+ },
+ {
+  "candidate_id": "5c7d378f658c4737",
+  "influence_score": 0.1020413488149643
+ },
+ {
+  "candidate_id": "05c1030ae83cc4c9",
+  "influence_score": -0.024463392794132233
+ },
+ {
+  "candidate_id": "480d7646dcc75f54",
+  "influence_score": -0.025969509035348892
+ },
+ {
+  "candidate_id": "7506b31eb26c993a",
+  "influence_score": -0.026040468364953995
+ },
+ {
+  "candidate_id": "0fb066272afc5211",
+  "influence_score": 0.10252314060926437
+ },
+ {
+  "candidate_id": "16d89e6597b386cf",
+  "influence_score": 0.1026456356048584
+ },
+ {
+  "candidate_id": "4cfed29486847d3e",
+  "influence_score": 0.10261332988739014
+ },
+ {
+  "candidate_id": "79e0e3c28064adcc",
+  "influence_score": -0.023124411702156067
+ },
+ {
+  "candidate_id": "c4c09f71c5d3052c",
+  "influence_score": -0.02233176678419113
+ },
+ {
+  "candidate_id": "d2b956edfae7aa76",
+  "influence_score": -0.021453911438584328
+ },
+ {
+  "candidate_id": "28a9a28f6eaea379",
+  "influence_score": 0.024877622723579407
+ },
+ {
+  "candidate_id": "6649e34239f80d6f",
+  "influence_score": 0.024700606241822243
+ },
+ {
+  "candidate_id": "d80c644a47d2ca3d",
+  "influence_score": 0.024981126189231873
+ },
+ {
+  "candidate_id": "39cea2f43d38a422",
+  "influence_score": -0.023737624287605286
+ },
+ {
+  "candidate_id": "c6fca114d428686a",
+  "influence_score": -0.024897916242480278
+ },
+ {
+  "candidate_id": "de60f99437f436e2",
+  "influence_score": -0.022885357961058617
+ },
+ {
+  "candidate_id": "6c59ac267684cfc6",
+  "influence_score": 0.10103956609964371
+ },
+ {
+  "candidate_id": "b92f423d041dc480",
+  "influence_score": 0.10212553292512894
+ },
+ {
+  "candidate_id": "d326a4efcac57602",
+  "influence_score": 0.10225546360015869
+ },
+ {
+  "candidate_id": "80b90b4eefe55194",
+  "influence_score": 0.025499124079942703
+ },
+ {
+  "candidate_id": "9dcc92b96fd7be4e",
+  "influence_score": 0.02560451626777649
+ },
+ {
+  "candidate_id": "e0aa38579d70789d",
+  "influence_score": 0.0252695269882679
+ },
+ {
+  "candidate_id": "1333aee9e3281d90",
+  "influence_score": -0.014996076002717018
+ },
+ {
+  "candidate_id": "6b13238f6966a15d",
+  "influence_score": -0.013692217878997326
+ },
+ {
+  "candidate_id": "b938dd4a601c15ec",
+  "influence_score": -0.014613614417612553
+ },
+ {
+  "candidate_id": "2195201433d59afe",
+  "influence_score": -0.012401005253195763
+ },
+ {
+  "candidate_id": "c3158cf32f75c0e5",
+  "influence_score": -0.013548881746828556
+ },
+ {
+  "candidate_id": "cc1ffc8aa46e64c7",
+  "influence_score": -0.013691739179193974
+ },
+ {
+  "candidate_id": "0d89e4b1395eacc7",
+  "influence_score": -0.014646435156464577
+ },
+ {
+  "candidate_id": "1adf8ff99c397ef7",
+  "influence_score": -0.014341697096824646
+ },
+ {
+  "candidate_id": "937f97aa351f1831",
+  "influence_score": -0.01567491888999939
+ },
+ {
+  "candidate_id": "5264e1987bf289e9",
+  "influence_score": -0.024102946743369102
+ },
+ {
+  "candidate_id": "c23583fba41b49d9",
+  "influence_score": -0.02395288273692131
+ },
+ {
+  "candidate_id": "f1eb299d688634e2",
+  "influence_score": -0.022669997066259384
+ },
+ {
+  "candidate_id": "1125e119ad307ef0",
+  "influence_score": 0.0598541796207428
+ },
+ {
+  "candidate_id": "5f2c363c3fcd6187",
+  "influence_score": 0.05908508598804474
+ },
+ {
+  "candidate_id": "b3eaa0751d60bf52",
+  "influence_score": 0.059718746691942215
+ },
+ {
+  "candidate_id": "28316d3df9a9a862",
+  "influence_score": -0.023620203137397766
+ },
+ {
+  "candidate_id": "bfb188a3515ae292",
+  "influence_score": -0.023248974233865738
+ },
+ {
+  "candidate_id": "cbb18d630b09c432",
+  "influence_score": -0.02159985341131687
+ },
+ {
+  "candidate_id": "38f507c755b81b57",
+  "influence_score": -0.013907119631767273
+ },
+ {
+  "candidate_id": "45b357d0d2eb5b18",
+  "influence_score": -0.01399667002260685
+ },
+ {
+  "candidate_id": "fca92c8899dc72ef",
+  "influence_score": -0.0135759636759758
+ },
+ {
+  "candidate_id": "4384ae18d25e6813",
+  "influence_score": -0.01392136886715889
+ },
+ {
+  "candidate_id": "4efe25a160220bc3",
+  "influence_score": -0.014434055425226688
+ },
+ {
+  "candidate_id": "7bbb01b06049c00c",
+  "influence_score": -0.01624326780438423
+ },
+ {
+  "candidate_id": "115fa7f1e7bf0d15",
+  "influence_score": 0.06038498505949974
+ },
+ {
+  "candidate_id": "707a7320919bcb87",
+  "influence_score": 0.06037700176239014
+ },
+ {
+  "candidate_id": "f237813dfc7d9773",
+  "influence_score": 0.06083345413208008
+ },
+ {
+  "candidate_id": "49fa2cd803134d4d",
+  "influence_score": 0.06100388616323471
+ },
+ {
+  "candidate_id": "7b271f63ff52d3cb",
+  "influence_score": 0.06048324704170227
+ },
+ {
+  "candidate_id": "f64b6c03f729ecaa",
+  "influence_score": 0.06059537082910538
+ }
+]

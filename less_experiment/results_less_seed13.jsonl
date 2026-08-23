@@ -1,0 +1,8 @@
+{"task": "news_topic_classification", "lang": "amh", "seed": 13, "n_selected": 64, "n_train": 128, "n_test": 376, "macro_f1": 0.12356538810027182}
+{"selector": "less", "task": "news_topic_classification", "lang": "hau", "seed": 13, "n_selected": 64, "n_train": 128, "n_test": 637, "macro_f1": 0.03753361289230711}
+{"selector": "less", "task": "news_topic_classification", "lang": "swa", "seed": 13, "n_selected": 64, "n_train": 128, "n_test": 476, "macro_f1": 0.18145796132067527}
+{"selector": "less", "task": "news_topic_classification", "lang": "yor", "seed": 13, "n_selected": 64, "n_train": 128, "n_test": 411, "macro_f1": 0.08140075274095893}
+{"selector": "less", "task": "sentiment_classification", "lang": "amh", "seed": 13, "n_selected": 64, "n_train": 128, "n_test": 1999, "macro_f1": 0.0671764882291198}
+{"selector": "less", "task": "sentiment_classification", "lang": "hau", "seed": 13, "n_selected": 64, "n_train": 128, "n_test": 5303, "macro_f1": 0.1657693397563049}
+{"selector": "less", "task": "sentiment_classification", "lang": "swa", "seed": 13, "n_selected": 64, "n_train": 128, "n_test": 748, "macro_f1": 0.2483221476510067}
+{"selector": "less", "task": "sentiment_classification", "lang": "yor", "seed": 13, "n_selected": 64, "n_train": 128, "n_test": 4515, "macro_f1": 0.19876677548059485}

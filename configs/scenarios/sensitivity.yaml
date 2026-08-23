@@ -1,0 +1,13 @@
+description: >
+  Sensitivity grid around CoSDA defaults. The `scripts/make_sensitivity_grid.py`
+  helper materializes concrete YAML files.
+base_config: configs/scenarios/aws_full.yaml
+parameters:
+  alpha_u: [0.5, 0.75, 1.0, 1.25, 1.5]
+  alpha_c: [0.375, 0.5625, 0.75, 0.9375, 1.125]
+  alpha_d: [0.25, 0.375, 0.5, 0.625, 0.75]
+  alpha_l: [0.5, 0.75, 1.0, 1.25, 1.5]
+  alpha_h: [0.375, 0.5625, 0.75, 0.9375, 1.125]
+  tau_l: [0.075, 0.1125, 0.15, 0.1875, 0.225]
+  tau_c: [0.30, 0.45, 0.60, 0.75, 0.90]
+  tau_h: [0.35, 0.525, 0.70, 0.875, 1.00]

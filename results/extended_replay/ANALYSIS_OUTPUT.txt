@@ -1,0 +1,75 @@
+
+===== XLM-R seed 13 =====
+selector           LC  meanF1    ±sd
+Naive          0.767 0.148 0.000
+AlpaGasus      0.890 0.160 0.000
+DEITA          0.869 0.160 0.000
+CoSDA-EQ       0.836 0.180 0.000
+CoSDA-V2       0.904 0.182 0.000
+AlpaGasus+HR   0.845 0.157 0.000
+U+D control    0.849 0.192 0.000
+Spearman(LC,F1) across 7 selectors = +0.464
+LC order: CoSDA-V2 > AlpaGasus > DEITA > U+D control > AlpaGasus+HR > CoSDA-EQ > Naive
+F1 order: U+D control > CoSDA-V2 > CoSDA-EQ > DEITA > AlpaGasus > AlpaGasus+HR > Naive
+ABLATION: AlpaGasus F1=0.160  AlpaGasus+HR F1=0.157  delta=-0.003
+
+--- per-cell: AlpaGasus vs AlpaGasus+HR (xlm-r s13) ---
+cell              AG   AG+HR  nHR   delta
+news/amh      0.306 0.105   31 -0.201
+news/hau      0.039 0.039   50 +0.000
+news/swa      0.012 0.012   64 +0.000
+news/yor      0.065 0.261   64 +0.196
+sent/amh      0.067 0.067   64 +0.000
+sent/hau      0.364 0.345   64 -0.019
+sent/swa      0.248 0.248   64 +0.000
+sent/yor      0.176 0.176   64 +0.000
+
+===== XLM-R multi-seed (13,21,42) =====
+selector           LC  meanF1    ±sd
+Naive          0.767 0.171 0.038
+AlpaGasus      0.890 0.193 0.024
+DEITA          0.869 0.174 0.011
+CoSDA-EQ       0.836 0.167 0.010
+CoSDA-V2       0.904 0.157 0.018
+AlpaGasus+HR   0.845 0.164 0.008
+U+D control    0.849 0.178 0.010
+Spearman(LC,F1) across 7 selectors = +0.071
+LC order: CoSDA-V2 > AlpaGasus > DEITA > U+D control > AlpaGasus+HR > CoSDA-EQ > Naive
+F1 order: AlpaGasus > U+D control > DEITA > Naive > CoSDA-EQ > AlpaGasus+HR > CoSDA-V2
+ABLATION: AlpaGasus F1=0.193  AlpaGasus+HR F1=0.164  delta=-0.029
+
+===== AfroXLMR seed 13 =====
+selector           LC  meanF1    ±sd
+Naive          0.767 0.266 0.000
+AlpaGasus      0.890 0.321 0.000
+DEITA          0.869 0.325 0.000
+CoSDA-EQ       0.836 0.341 0.000
+CoSDA-V2       0.904 0.344 0.000
+AlpaGasus+HR   0.845 0.339 0.000
+U+D control    0.849 0.348 0.000
+Spearman(LC,F1) across 7 selectors = +0.286
+LC order: CoSDA-V2 > AlpaGasus > DEITA > U+D control > AlpaGasus+HR > CoSDA-EQ > Naive
+F1 order: U+D control > CoSDA-V2 > CoSDA-EQ > AlpaGasus+HR > DEITA > AlpaGasus > Naive
+ABLATION: AlpaGasus F1=0.321  AlpaGasus+HR F1=0.339  delta=+0.018
+
+--- within-cell & per-seed Spearman(LC,F1) ---
+seed 13: selector-level rho=+0.464 | within-cell mean rho=+0.006 median=+0.000 (n=8 cells)
+seed 21: selector-level rho=+0.429 | within-cell mean rho=+0.233 median=+0.445 (n=8 cells)
+seed 42: selector-level rho=-0.286 | within-cell mean rho=-0.246 median=-0.214 (n=8 cells)
+
+[AfroXLMR]
+
+--- within-cell & per-seed Spearman(LC,F1) ---
+seed 13: selector-level rho=+0.286 | within-cell mean rho=+0.210 median=+0.250 (n=8 cells)
+
+===== INSTABILITY SUMMARY: XLM-R across seeds 13/21/42 =====
+selector-level rho across seeds: min=-0.286 max=+0.464 mean=+0.202 (n=3 seeds)
+within-cell mean rho across seeds: min=-0.246 max=+0.233 mean=-0.002
+selector           LC  meanF1+-sd (over seeds)
+Naive          0.767  0.171 +- 0.038
+AlpaGasus      0.890  0.193 +- 0.024
+DEITA          0.869  0.174 +- 0.011
+CoSDA-EQ       0.836  0.167 +- 0.010
+CoSDA-V2       0.904  0.157 +- 0.018
+AlpaGasus+HR   0.845  0.164 +- 0.008
+U+D control    0.849  0.178 +- 0.010
