@@ -1,8 +1,7 @@
 # CoSDA — When Audit Quality Fails to Predict Downstream Utility
 
 Artifact for the EMNLP 2026 Findings paper *"When Audit Quality Fails to Predict
-Downstream Utility: A Controlled Study of Synthetic-Data Selection for Low-Resource
-African Languages."*
+Downstream Utility: Synthetic-Data Selection for Low-Resource Classification."*
 
 The paper asks whether a synthetic-data selector that scores well under audit metrics
 also helps a downstream model learn. In a matched-budget replay over 8 task-language
@@ -161,8 +160,8 @@ rights neither dataset licence grants.
 
 ```bibtex
 @inproceedings{le2026cosda,
-  title     = {When Audit Quality Fails to Predict Downstream Utility: A Controlled
-               Study of Synthetic-Data Selection for Low-Resource African Languages},
+  title     = {When Audit Quality Fails to Predict Downstream Utility:
+               Synthetic-Data Selection for Low-Resource Classification},
   author    = {Le, Xuan-Bach and Tran-Truong, Phat T. and Ha Xuan, Son},
   booktitle = {Findings of the Association for Computational Linguistics: EMNLP 2026},
   year      = {2026}
