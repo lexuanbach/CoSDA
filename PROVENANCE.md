@@ -18,7 +18,7 @@ paper's numbers are the ones shipped here. Regenerate with `scripts/make_provena
 | `results/main_replay/MAIN_REPLAY_OUTPUT.txt` | 1416 | `4c5498352498b806` |
 | `results/main_replay/aws_vllm_revised_select1_v2_full_20260521_analysis_rows.csv` | 21772 | `c66859491fb40d32` |
 | `results/main_replay/aws_vllm_revised_select1_v2_pilot_20260521_analysis_rows.csv` | 10159 | `c28a7dcff6442477` |
-| `results/main_replay/claim_ledger.csv` | 16743 | `787052658c9a4668` |
+| `results/main_replay/claim_ledger.csv` | 16743 | `9b6fb833f35ecff9` |
 | `results/main_replay/cosda_full_v2_paper_summary_20260521.csv` | 1105 | `f0b64cb769b7948c` |
 | `results/main_replay/cosda_paper_tables_20260521.tex` | 1230 | `4ea50bf2b6bad9a1` |
 | `runs/select1_seed13/news_topic_classification/amh/b64_m3_s13/audit.jsonl` | 574598 | `da478104c609e794` |

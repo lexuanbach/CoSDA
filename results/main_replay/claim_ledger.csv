@@ -69,40 +69,40 @@ tab2:cosda_equal_budget:afroxlmr,Table 2 (AfroXLMR col),macro_f1_mean,0.3409,res
 tab2:cosda_rerank_v2:afroxlmr,Table 2 (AfroXLMR col),macro_f1_mean,0.3436,results/extended_replay/results_afroxlmr.json,mean over 8 cells at seed 13
 tab2:alpagasus_hardreject:afroxlmr,Table 2 (AfroXLMR col),macro_f1_mean,0.3389,results/extended_replay/results_afroxlmr.json,mean over 8 cells at seed 13
 tab2:less_style:afroxlmr,Table 2 (AfroXLMR col),macro_f1_mean,0.3479,results/extended_replay/results_afroxlmr.json,mean over 8 cells at seed 13
-tab4:sent/amh:pool,Table 4 (HR pool),n_surviving,93,results/extended_replay/ablation_alpagasus_hardreject_selection.md,hard-reject-pass pool size
-tab4:sent/amh:AG,Table 4,macro_f1,0.2199,"results/extended_replay/{grid_results,results_multiseed}.json",mean over seeds 13/21/42
-tab4:sent/amh:AGHR,Table 4,macro_f1,0.1533,"results/extended_replay/{grid_results,results_multiseed}.json",mean over seeds 13/21/42
-tab4:sent/amh:delta,Table 4 / Figure 4,delta_macro_f1,-0.0665,"results/extended_replay/{grid_results,results_multiseed}.json",AG+HR minus AG
-tab4:sent/yor:pool,Table 4 (HR pool),n_surviving,138,results/extended_replay/ablation_alpagasus_hardreject_selection.md,hard-reject-pass pool size
-tab4:sent/yor:AG,Table 4,macro_f1,0.1843,"results/extended_replay/{grid_results,results_multiseed}.json",mean over seeds 13/21/42
-tab4:sent/yor:AGHR,Table 4,macro_f1,0.1844,"results/extended_replay/{grid_results,results_multiseed}.json",mean over seeds 13/21/42
-tab4:sent/yor:delta,Table 4 / Figure 4,delta_macro_f1,0.0001,"results/extended_replay/{grid_results,results_multiseed}.json",AG+HR minus AG
-tab4:sent/hau:pool,Table 4 (HR pool),n_surviving,153,results/extended_replay/ablation_alpagasus_hardreject_selection.md,hard-reject-pass pool size
-tab4:sent/hau:AG,Table 4,macro_f1,0.2682,"results/extended_replay/{grid_results,results_multiseed}.json",mean over seeds 13/21/42
-tab4:sent/hau:AGHR,Table 4,macro_f1,0.3308,"results/extended_replay/{grid_results,results_multiseed}.json",mean over seeds 13/21/42
-tab4:sent/hau:delta,Table 4 / Figure 4,delta_macro_f1,0.0626,"results/extended_replay/{grid_results,results_multiseed}.json",AG+HR minus AG
-tab4:sent/swa:pool,Table 4 (HR pool),n_surviving,131,results/extended_replay/ablation_alpagasus_hardreject_selection.md,hard-reject-pass pool size
-tab4:sent/swa:AG,Table 4,macro_f1,0.1555,"results/extended_replay/{grid_results,results_multiseed}.json",mean over seeds 13/21/42
-tab4:sent/swa:AGHR,Table 4,macro_f1,0.1555,"results/extended_replay/{grid_results,results_multiseed}.json",mean over seeds 13/21/42
-tab4:sent/swa:delta,Table 4 / Figure 4,delta_macro_f1,0.0000,"results/extended_replay/{grid_results,results_multiseed}.json",AG+HR minus AG
-tab4:news/amh:pool,Table 4 (HR pool),n_surviving,31,results/extended_replay/ablation_alpagasus_hardreject_selection.md,hard-reject-pass pool size
-tab4:news/amh:AG,Table 4,macro_f1,0.3868,"results/extended_replay/{grid_results,results_multiseed}.json",mean over seeds 13/21/42
-tab4:news/amh:AGHR,Table 4,macro_f1,0.1348,"results/extended_replay/{grid_results,results_multiseed}.json",mean over seeds 13/21/42
-tab4:news/amh:delta,Table 4 / Figure 4,delta_macro_f1,-0.2520,"results/extended_replay/{grid_results,results_multiseed}.json",AG+HR minus AG
-tab4:news/yor:pool,Table 4 (HR pool),n_surviving,87,results/extended_replay/ablation_alpagasus_hardreject_selection.md,hard-reject-pass pool size
-tab4:news/yor:AG,Table 4,macro_f1,0.0665,"results/extended_replay/{grid_results,results_multiseed}.json",mean over seeds 13/21/42
-tab4:news/yor:AGHR,Table 4,macro_f1,0.1326,"results/extended_replay/{grid_results,results_multiseed}.json",mean over seeds 13/21/42
-tab4:news/yor:delta,Table 4 / Figure 4,delta_macro_f1,0.0661,"results/extended_replay/{grid_results,results_multiseed}.json",AG+HR minus AG
-tab4:news/hau:pool,Table 4 (HR pool),n_surviving,50,results/extended_replay/ablation_alpagasus_hardreject_selection.md,hard-reject-pass pool size
-tab4:news/hau:AG,Table 4,macro_f1,0.1142,"results/extended_replay/{grid_results,results_multiseed}.json",mean over seeds 13/21/42
-tab4:news/hau:AGHR,Table 4,macro_f1,0.1399,"results/extended_replay/{grid_results,results_multiseed}.json",mean over seeds 13/21/42
-tab4:news/hau:delta,Table 4 / Figure 4,delta_macro_f1,0.0257,"results/extended_replay/{grid_results,results_multiseed}.json",AG+HR minus AG
-tab4:news/swa:pool,Table 4 (HR pool),n_surviving,81,results/extended_replay/ablation_alpagasus_hardreject_selection.md,hard-reject-pass pool size
-tab4:news/swa:AG,Table 4,macro_f1,0.1450,"results/extended_replay/{grid_results,results_multiseed}.json",mean over seeds 13/21/42
-tab4:news/swa:AGHR,Table 4,macro_f1,0.0778,"results/extended_replay/{grid_results,results_multiseed}.json",mean over seeds 13/21/42
-tab4:news/swa:delta,Table 4 / Figure 4,delta_macro_f1,-0.0672,"results/extended_replay/{grid_results,results_multiseed}.json",AG+HR minus AG
-tab4:mean:delta,Table 4 (mean row) / abstract,delta_macro_f1,-0.0289,"results/extended_replay/{grid_results,results_multiseed}.json",mean of the 8 per-cell deltas
+tab4:sent/amh:pool,Table 5 (HR pool),n_surviving,93,results/extended_replay/ablation_alpagasus_hardreject_selection.md,hard-reject-pass pool size
+tab4:sent/amh:AG,Table 5,macro_f1,0.2199,"results/extended_replay/{grid_results,results_multiseed}.json",mean over seeds 13/21/42
+tab4:sent/amh:AGHR,Table 5,macro_f1,0.1533,"results/extended_replay/{grid_results,results_multiseed}.json",mean over seeds 13/21/42
+tab4:sent/amh:delta,Table 5 / Figure 3,delta_macro_f1,-0.0665,"results/extended_replay/{grid_results,results_multiseed}.json",AG+HR minus AG
+tab4:sent/yor:pool,Table 5 (HR pool),n_surviving,138,results/extended_replay/ablation_alpagasus_hardreject_selection.md,hard-reject-pass pool size
+tab4:sent/yor:AG,Table 5,macro_f1,0.1843,"results/extended_replay/{grid_results,results_multiseed}.json",mean over seeds 13/21/42
+tab4:sent/yor:AGHR,Table 5,macro_f1,0.1844,"results/extended_replay/{grid_results,results_multiseed}.json",mean over seeds 13/21/42
+tab4:sent/yor:delta,Table 5 / Figure 3,delta_macro_f1,0.0001,"results/extended_replay/{grid_results,results_multiseed}.json",AG+HR minus AG
+tab4:sent/hau:pool,Table 5 (HR pool),n_surviving,153,results/extended_replay/ablation_alpagasus_hardreject_selection.md,hard-reject-pass pool size
+tab4:sent/hau:AG,Table 5,macro_f1,0.2682,"results/extended_replay/{grid_results,results_multiseed}.json",mean over seeds 13/21/42
+tab4:sent/hau:AGHR,Table 5,macro_f1,0.3308,"results/extended_replay/{grid_results,results_multiseed}.json",mean over seeds 13/21/42
+tab4:sent/hau:delta,Table 5 / Figure 3,delta_macro_f1,0.0626,"results/extended_replay/{grid_results,results_multiseed}.json",AG+HR minus AG
+tab4:sent/swa:pool,Table 5 (HR pool),n_surviving,131,results/extended_replay/ablation_alpagasus_hardreject_selection.md,hard-reject-pass pool size
+tab4:sent/swa:AG,Table 5,macro_f1,0.1555,"results/extended_replay/{grid_results,results_multiseed}.json",mean over seeds 13/21/42
+tab4:sent/swa:AGHR,Table 5,macro_f1,0.1555,"results/extended_replay/{grid_results,results_multiseed}.json",mean over seeds 13/21/42
+tab4:sent/swa:delta,Table 5 / Figure 3,delta_macro_f1,0.0000,"results/extended_replay/{grid_results,results_multiseed}.json",AG+HR minus AG
+tab4:news/amh:pool,Table 5 (HR pool),n_surviving,31,results/extended_replay/ablation_alpagasus_hardreject_selection.md,hard-reject-pass pool size
+tab4:news/amh:AG,Table 5,macro_f1,0.3868,"results/extended_replay/{grid_results,results_multiseed}.json",mean over seeds 13/21/42
+tab4:news/amh:AGHR,Table 5,macro_f1,0.1348,"results/extended_replay/{grid_results,results_multiseed}.json",mean over seeds 13/21/42
+tab4:news/amh:delta,Table 5 / Figure 3,delta_macro_f1,-0.2520,"results/extended_replay/{grid_results,results_multiseed}.json",AG+HR minus AG
+tab4:news/yor:pool,Table 5 (HR pool),n_surviving,87,results/extended_replay/ablation_alpagasus_hardreject_selection.md,hard-reject-pass pool size
+tab4:news/yor:AG,Table 5,macro_f1,0.0665,"results/extended_replay/{grid_results,results_multiseed}.json",mean over seeds 13/21/42
+tab4:news/yor:AGHR,Table 5,macro_f1,0.1326,"results/extended_replay/{grid_results,results_multiseed}.json",mean over seeds 13/21/42
+tab4:news/yor:delta,Table 5 / Figure 3,delta_macro_f1,0.0661,"results/extended_replay/{grid_results,results_multiseed}.json",AG+HR minus AG
+tab4:news/hau:pool,Table 5 (HR pool),n_surviving,50,results/extended_replay/ablation_alpagasus_hardreject_selection.md,hard-reject-pass pool size
+tab4:news/hau:AG,Table 5,macro_f1,0.1142,"results/extended_replay/{grid_results,results_multiseed}.json",mean over seeds 13/21/42
+tab4:news/hau:AGHR,Table 5,macro_f1,0.1399,"results/extended_replay/{grid_results,results_multiseed}.json",mean over seeds 13/21/42
+tab4:news/hau:delta,Table 5 / Figure 3,delta_macro_f1,0.0257,"results/extended_replay/{grid_results,results_multiseed}.json",AG+HR minus AG
+tab4:news/swa:pool,Table 5 (HR pool),n_surviving,81,results/extended_replay/ablation_alpagasus_hardreject_selection.md,hard-reject-pass pool size
+tab4:news/swa:AG,Table 5,macro_f1,0.1450,"results/extended_replay/{grid_results,results_multiseed}.json",mean over seeds 13/21/42
+tab4:news/swa:AGHR,Table 5,macro_f1,0.0778,"results/extended_replay/{grid_results,results_multiseed}.json",mean over seeds 13/21/42
+tab4:news/swa:delta,Table 5 / Figure 3,delta_macro_f1,-0.0672,"results/extended_replay/{grid_results,results_multiseed}.json",AG+HR minus AG
+tab4:mean:delta,Table 5 (mean row) / abstract,delta_macro_f1,-0.0289,"results/extended_replay/{grid_results,results_multiseed}.json",mean of the 8 per-cell deltas
 analysis:delta_excl_newsamh,Section 5.1,delta_macro_f1,0.0030,"results/extended_replay/{grid_results,results_multiseed}.json",mean delta over the 7 non-amh-news cells
 analysis:delta_fullpool,Section 5.1,delta_macro_f1,-0.0008,"results/extended_replay/{grid_results,results_multiseed}.json",mean delta over the 6 unstarved cells
-tab3:qwen14b:n,Table 3,n_candidates_scored,1521,results/extended_replay/judge2_qwen14b.json,candidates re-scored by this judge
-tab3:phi35:n,Table 3,n_candidates_scored,1502,results/extended_replay/judge2_phi35.json,candidates re-scored by this judge
+tab3:qwen14b:n,Table 4,n_candidates_scored,1521,results/extended_replay/judge2_qwen14b.json,candidates re-scored by this judge
+tab3:phi35:n,Table 4,n_candidates_scored,1502,results/extended_replay/judge2_phi35.json,candidates re-scored by this judge

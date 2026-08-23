@@ -66,7 +66,7 @@ for b, v in af.items():
     add(f"tab2:{b}:afroxlmr", "Table 2 (AfroXLMR col)", "macro_f1_mean", mean(v),
         "results/extended_replay/results_afroxlmr.json", "mean over 8 cells at seed 13")
 
-# --- Table 4 / Figure 4: AlpaGasus+HR ablation ---
+# --- Table 5 / Figure 3: AlpaGasus+HR ablation ---
 # Recomputed from the shipped audit records rather than hard-coded, so a stale
 # literal cannot silently move a paper number.
 import glob
@@ -82,15 +82,15 @@ deltas = {}
 for k, pool in HRPOOL.items():
     ag = mean(cell[(k[0],k[1],"alpagasus_style")]); hr = mean(cell[(k[0],k[1],"alpagasus_hardreject")])
     deltas[k] = hr - ag
-    add(f"tab4:{k[0]}/{k[1]}:pool", "Table 4 (HR pool)", "n_surviving", pool,
+    add(f"tab4:{k[0]}/{k[1]}:pool", "Table 5 (HR pool)", "n_surviving", pool,
         "results/extended_replay/ablation_alpagasus_hardreject_selection.md", "hard-reject-pass pool size")
-    add(f"tab4:{k[0]}/{k[1]}:AG", "Table 4", "macro_f1", ag,
+    add(f"tab4:{k[0]}/{k[1]}:AG", "Table 5", "macro_f1", ag,
         "results/extended_replay/{grid_results,results_multiseed}.json", "mean over seeds 13/21/42")
-    add(f"tab4:{k[0]}/{k[1]}:AGHR", "Table 4", "macro_f1", hr,
+    add(f"tab4:{k[0]}/{k[1]}:AGHR", "Table 5", "macro_f1", hr,
         "results/extended_replay/{grid_results,results_multiseed}.json", "mean over seeds 13/21/42")
-    add(f"tab4:{k[0]}/{k[1]}:delta", "Table 4 / Figure 4", "delta_macro_f1", hr - ag,
+    add(f"tab4:{k[0]}/{k[1]}:delta", "Table 5 / Figure 3", "delta_macro_f1", hr - ag,
         "results/extended_replay/{grid_results,results_multiseed}.json", "AG+HR minus AG")
-add("tab4:mean:delta", "Table 4 (mean row) / abstract", "delta_macro_f1", mean(deltas.values()),
+add("tab4:mean:delta", "Table 5 (mean row) / abstract", "delta_macro_f1", mean(deltas.values()),
     "results/extended_replay/{grid_results,results_multiseed}.json", "mean of the 8 per-cell deltas")
 add("analysis:delta_excl_newsamh", "Section 5.1", "delta_macro_f1",
     mean([v for k,v in deltas.items() if k != ("news","amh")]),
@@ -99,9 +99,9 @@ add("analysis:delta_fullpool", "Section 5.1", "delta_macro_f1",
     mean([v for k,v in deltas.items() if HRPOOL[k] >= 64]),
     "results/extended_replay/{grid_results,results_multiseed}.json", "mean delta over the 6 unstarved cells")
 
-# --- Table 3: multi-judge LC ---
+# --- Table 4: multi-judge LC ---
 for tag, fn in (("qwen14b","judge2_qwen14b.json"), ("phi35","judge2_phi35.json")):
-    add(f"tab3:{tag}:n", "Table 3", "n_candidates_scored",
+    add(f"tab3:{tag}:n", "Table 4", "n_candidates_scored",
         len([v for v in json.load(open(RES / fn)).values() if v is not None]),
         f"results/extended_replay/{fn}", "candidates re-scored by this judge")
 

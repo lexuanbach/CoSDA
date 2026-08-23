@@ -47,17 +47,34 @@ computation that produces each one. Regenerate it with
 
 | Paper element | File |
 |---|---|
-| Table 1, Table 8 (audit channels) | `results/extended_replay/audit_aggregates.json` |
+| Table 1, Table 9 (audit channels) | `results/extended_replay/audit_aggregates.json` |
 | Table 1 Macro-F1, Sec. 4.3 statistics | `results/main_replay/aws_vllm_revised_select1_v2_full_20260521_analysis_rows.csv` |
-| Table 2 (head-to-head) | same main-replay CSV + `audit_aggregates.json` |
-| Table 3 (per-cell Macro-F1) | same main-replay CSV |
-| Table 4 (3 seeds + AfroXLMR) | `results/extended_replay/{grid_results,results_multiseed,results_afroxlmr}.json` |
-| Table 5 (multi-judge LC) | `results/extended_replay/judge2_{qwen14b,phi35}.json` |
-| Table 6, Figure 4 (AlpaGasus+HR ablation) | the three result JSONs + `ablation_alpagasus_hardreject_selection.md` for pool sizes |
+| Table 11 (head-to-head) | same main-replay CSV + `audit_aggregates.json` |
+| Table 10 (per-cell Macro-F1) | same main-replay CSV |
+| Table 2 (3 seeds + AfroXLMR) | `results/extended_replay/{grid_results,results_multiseed,results_afroxlmr}.json` |
+| Table 4 (multi-judge LC) | `results/extended_replay/judge2_{qwen14b,phi35}.json` |
+| Table 5, Figure 3 (AlpaGasus+HR ablation) | the three result JSONs + `ablation_alpagasus_hardreject_selection.md` for pool sizes |
 | Diversity column, `C_i` pass rates | `runs/select1_seed13/*/*/b64_m3_s13/audit.jsonl` |
-| Real LESS comparison (Table 5) | `less_experiment/RESULTS.json`, `results_*_seed13.jsonl` |
+| Real LESS comparison (Table 3) | `less_experiment/RESULTS.json`, `results_*_seed13.jsonl` |
 | Judge vs. human labels | `results/extended_replay/judge_human_validation.txt` |
 | Per-selector retained pools | `runs/select1_seed13/*/*/b64_m3_s13/selected/` |
+
+### Selector names in the data vs. the paper
+
+The result files and configs use the pipeline's internal selector keys. One mapping
+matters and is easy to misread:
+
+| Key in the data | Paper name | What it is |
+|---|---|---|
+| `less_style` | **U+D control** | Ranks by `U_i + 0.25*D_i`. A local gold-fit control, **not** LESS. It computes no gradient influence. |
+| `cosda_rerank_v2` | CoSDA-V2 | Budget-preserving reranker, no hard-reject gate |
+| `cosda_equal_budget` | CoSDA-EQ | Gate-priority ranking with backfill |
+| `alpagasus_hardreject` | AlpaGasus+HR | The audit's strict gate over AlpaGasus's ranking |
+
+`less_style` is a legacy key kept so the released JSONs stay byte-identical to the run
+that produced them. Real LESS (Xia et al., 2024) is implemented separately in
+`less_experiment/` and reported as Table 3 of the paper. Do not conflate the two: they
+score candidates by different quantities and produce different numbers.
 
 ### Authoritative source files
 
