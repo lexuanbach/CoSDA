@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # One-command check that the released EXTENDED-REPLAY results reproduce the paper's
-# Tables 2-4 and Table 1's audit columns. Table 1's Macro-F1 column comes from the
+# Tables 3-5 and Table 1's audit columns. Table 1's Macro-F1 column comes from the
 # main replay (results/main_replay/) and is not recomputed here.
 # Requires only python3 (no GPU, no network) — it recomputes every aggregate
 # from the committed per-run result files.

@@ -1,7 +1,7 @@
 # AlpaGasus + CoSDA-V2 hard-reject ablation — selection stage (seed 13)
 
-Causal test of H1: apply V2's hard-reject gate, then rank survivors by AlpaGasus judged quality.
-Selection is CPU-only on the cached seed-13 audit records. Pool/retained/overlap are recomputable from runs/select1_seed13/*/*/b64_m3_s13/{audit.jsonl,selected/*.jsonl}; the downstream Macro-F1 for these pools is in results/extended_replay/{grid_results,results_multiseed}.json (paper Table 4).
+Test of the underfill hypothesis: apply V2's hard-reject gate, then rank survivors by AlpaGasus judged quality. This measures the gate's total effect and does not separate pool size from pool composition.
+Selection is CPU-only on the cached seed-13 audit records. Pool/retained/overlap are recomputable from runs/select1_seed13/*/*/b64_m3_s13/{audit.jsonl,selected/*.jsonl}; the downstream Macro-F1 for these pools is in results/extended_replay/{grid_results,results_multiseed}.json (paper Table 6).
 
 | cell | HR-pass pool | AG+HR retained | budget-starved? | overlap w/ AlpaGasus |
 |------|-------------:|---------------:|:---------------:|---------------------:|
@@ -16,5 +16,5 @@ Selection is CPU-only on the cached seed-13 audit records. Pool/retained/overlap
 
 **Finding:** in the two cells with the smallest audit-passing pools (news/amh, news/hau),
 the gate leaves only 31 and 50 usable candidates, so AlpaGasus+hard-reject cannot fill the
-64-example budget. Paper Table 4 reports the downstream effect: the aggregate deficit is
+64-example budget. Paper Table 6 reports the downstream effect: the aggregate deficit is
 carried by news/amh alone, while news/hau gains +0.026.

@@ -1,108 +1,108 @@
 claim_id,paper_location,metric,value,result_file,computation
-tab1:naive:LC,Table 1 / Table 9,LC,0.7670,results/extended_replay/audit_aggregates.json,mean of LC over the 8 retained pools of selector naive
-tab1:naive:Q,Table 1 / Table 9,Q,0.6623,results/extended_replay/audit_aggregates.json,mean of Q over the 8 retained pools of selector naive
-tab1:naive:C,Table 1 / Table 9,C,0.5867,results/extended_replay/audit_aggregates.json,mean of C over the 8 retained pools of selector naive
-tab1:naive:D,Table 1 / Table 9,D,0.5992,results/extended_replay/audit_aggregates.json,mean of D over the 8 retained pools of selector naive
-tab1:naive:H,Table 1 / Table 9,H,0.0664,results/extended_replay/audit_aggregates.json,mean of H over the 8 retained pools of selector naive
-tab1:naive:L,Table 1 / Table 9,L,0.0031,results/extended_replay/audit_aggregates.json,mean of L over the 8 retained pools of selector naive
-tab1:naive:HR,Table 1 / Table 9,HR,0.4863,results/extended_replay/audit_aggregates.json,mean of HR over the 8 retained pools of selector naive
-tab1:alpagasus_style:LC,Table 1 / Table 9,LC,0.8904,results/extended_replay/audit_aggregates.json,mean of LC over the 8 retained pools of selector alpagasus_style
-tab1:alpagasus_style:Q,Table 1 / Table 9,Q,0.7491,results/extended_replay/audit_aggregates.json,mean of Q over the 8 retained pools of selector alpagasus_style
-tab1:alpagasus_style:C,Table 1 / Table 9,C,0.6534,results/extended_replay/audit_aggregates.json,mean of C over the 8 retained pools of selector alpagasus_style
-tab1:alpagasus_style:D,Table 1 / Table 9,D,0.5904,results/extended_replay/audit_aggregates.json,mean of D over the 8 retained pools of selector alpagasus_style
-tab1:alpagasus_style:H,Table 1 / Table 9,H,0.0647,results/extended_replay/audit_aggregates.json,mean of H over the 8 retained pools of selector alpagasus_style
-tab1:alpagasus_style:L,Table 1 / Table 9,L,0.0057,results/extended_replay/audit_aggregates.json,mean of L over the 8 retained pools of selector alpagasus_style
-tab1:alpagasus_style:HR,Table 1 / Table 9,HR,0.2461,results/extended_replay/audit_aggregates.json,mean of HR over the 8 retained pools of selector alpagasus_style
-tab1:deita_style:LC,Table 1 / Table 9,LC,0.8686,results/extended_replay/audit_aggregates.json,mean of LC over the 8 retained pools of selector deita_style
-tab1:deita_style:Q,Table 1 / Table 9,Q,0.7365,results/extended_replay/audit_aggregates.json,mean of Q over the 8 retained pools of selector deita_style
-tab1:deita_style:C,Table 1 / Table 9,C,0.6372,results/extended_replay/audit_aggregates.json,mean of C over the 8 retained pools of selector deita_style
-tab1:deita_style:D,Table 1 / Table 9,D,0.6488,results/extended_replay/audit_aggregates.json,mean of D over the 8 retained pools of selector deita_style
-tab1:deita_style:H,Table 1 / Table 9,H,0.0702,results/extended_replay/audit_aggregates.json,mean of H over the 8 retained pools of selector deita_style
-tab1:deita_style:L,Table 1 / Table 9,L,0.0053,results/extended_replay/audit_aggregates.json,mean of L over the 8 retained pools of selector deita_style
-tab1:deita_style:HR,Table 1 / Table 9,HR,0.2988,results/extended_replay/audit_aggregates.json,mean of HR over the 8 retained pools of selector deita_style
-tab1:cosda_equal_budget:LC,Table 1 / Table 9,LC,0.8363,results/extended_replay/audit_aggregates.json,mean of LC over the 8 retained pools of selector cosda_equal_budget
-tab1:cosda_equal_budget:Q,Table 1 / Table 9,Q,0.7177,results/extended_replay/audit_aggregates.json,mean of Q over the 8 retained pools of selector cosda_equal_budget
-tab1:cosda_equal_budget:C,Table 1 / Table 9,C,0.6861,results/extended_replay/audit_aggregates.json,mean of C over the 8 retained pools of selector cosda_equal_budget
-tab1:cosda_equal_budget:D,Table 1 / Table 9,D,0.6043,results/extended_replay/audit_aggregates.json,mean of D over the 8 retained pools of selector cosda_equal_budget
-tab1:cosda_equal_budget:H,Table 1 / Table 9,H,0.0582,results/extended_replay/audit_aggregates.json,mean of H over the 8 retained pools of selector cosda_equal_budget
-tab1:cosda_equal_budget:L,Table 1 / Table 9,L,0.0024,results/extended_replay/audit_aggregates.json,mean of L over the 8 retained pools of selector cosda_equal_budget
-tab1:cosda_equal_budget:HR,Table 1 / Table 9,HR,0.1094,results/extended_replay/audit_aggregates.json,mean of HR over the 8 retained pools of selector cosda_equal_budget
-tab1:cosda_rerank_v2:LC,Table 1 / Table 9,LC,0.9039,results/extended_replay/audit_aggregates.json,mean of LC over the 8 retained pools of selector cosda_rerank_v2
-tab1:cosda_rerank_v2:Q,Table 1 / Table 9,Q,0.7456,results/extended_replay/audit_aggregates.json,mean of Q over the 8 retained pools of selector cosda_rerank_v2
-tab1:cosda_rerank_v2:C,Table 1 / Table 9,C,0.6743,results/extended_replay/audit_aggregates.json,mean of C over the 8 retained pools of selector cosda_rerank_v2
-tab1:cosda_rerank_v2:D,Table 1 / Table 9,D,0.6022,results/extended_replay/audit_aggregates.json,mean of D over the 8 retained pools of selector cosda_rerank_v2
-tab1:cosda_rerank_v2:H,Table 1 / Table 9,H,0.0573,results/extended_replay/audit_aggregates.json,mean of H over the 8 retained pools of selector cosda_rerank_v2
-tab1:cosda_rerank_v2:L,Table 1 / Table 9,L,0.0030,results/extended_replay/audit_aggregates.json,mean of L over the 8 retained pools of selector cosda_rerank_v2
-tab1:cosda_rerank_v2:HR,Table 1 / Table 9,HR,0.1621,results/extended_replay/audit_aggregates.json,mean of HR over the 8 retained pools of selector cosda_rerank_v2
-tab1:alpagasus_hardreject:LC,Table 2 (LC col),LC,0.8450,results/extended_replay/audit_aggregates.json,mean of LC over the 8 retained pools of selector alpagasus_hardreject
+tab1:naive:LC,Table 1 / Table 10,LC,0.7670,results/extended_replay/audit_aggregates.json,mean of LC over the 8 retained pools of selector naive
+tab1:naive:Q,Table 1 / Table 10,Q,0.6623,results/extended_replay/audit_aggregates.json,mean of Q over the 8 retained pools of selector naive
+tab1:naive:C,Table 1 / Table 10,C,0.5867,results/extended_replay/audit_aggregates.json,mean of C over the 8 retained pools of selector naive
+tab1:naive:D,Table 1 / Table 10,D,0.5992,results/extended_replay/audit_aggregates.json,mean of D over the 8 retained pools of selector naive
+tab1:naive:H,Table 1 / Table 10,H,0.0664,results/extended_replay/audit_aggregates.json,mean of H over the 8 retained pools of selector naive
+tab1:naive:L,Table 1 / Table 10,L,0.0031,results/extended_replay/audit_aggregates.json,mean of L over the 8 retained pools of selector naive
+tab1:naive:HR,Table 1 / Table 10,HR,0.4863,results/extended_replay/audit_aggregates.json,mean of HR over the 8 retained pools of selector naive
+tab1:alpagasus_style:LC,Table 1 / Table 10,LC,0.8904,results/extended_replay/audit_aggregates.json,mean of LC over the 8 retained pools of selector alpagasus_style
+tab1:alpagasus_style:Q,Table 1 / Table 10,Q,0.7491,results/extended_replay/audit_aggregates.json,mean of Q over the 8 retained pools of selector alpagasus_style
+tab1:alpagasus_style:C,Table 1 / Table 10,C,0.6534,results/extended_replay/audit_aggregates.json,mean of C over the 8 retained pools of selector alpagasus_style
+tab1:alpagasus_style:D,Table 1 / Table 10,D,0.5904,results/extended_replay/audit_aggregates.json,mean of D over the 8 retained pools of selector alpagasus_style
+tab1:alpagasus_style:H,Table 1 / Table 10,H,0.0647,results/extended_replay/audit_aggregates.json,mean of H over the 8 retained pools of selector alpagasus_style
+tab1:alpagasus_style:L,Table 1 / Table 10,L,0.0057,results/extended_replay/audit_aggregates.json,mean of L over the 8 retained pools of selector alpagasus_style
+tab1:alpagasus_style:HR,Table 1 / Table 10,HR,0.2461,results/extended_replay/audit_aggregates.json,mean of HR over the 8 retained pools of selector alpagasus_style
+tab1:deita_style:LC,Table 1 / Table 10,LC,0.8686,results/extended_replay/audit_aggregates.json,mean of LC over the 8 retained pools of selector deita_style
+tab1:deita_style:Q,Table 1 / Table 10,Q,0.7365,results/extended_replay/audit_aggregates.json,mean of Q over the 8 retained pools of selector deita_style
+tab1:deita_style:C,Table 1 / Table 10,C,0.6372,results/extended_replay/audit_aggregates.json,mean of C over the 8 retained pools of selector deita_style
+tab1:deita_style:D,Table 1 / Table 10,D,0.6488,results/extended_replay/audit_aggregates.json,mean of D over the 8 retained pools of selector deita_style
+tab1:deita_style:H,Table 1 / Table 10,H,0.0702,results/extended_replay/audit_aggregates.json,mean of H over the 8 retained pools of selector deita_style
+tab1:deita_style:L,Table 1 / Table 10,L,0.0053,results/extended_replay/audit_aggregates.json,mean of L over the 8 retained pools of selector deita_style
+tab1:deita_style:HR,Table 1 / Table 10,HR,0.2988,results/extended_replay/audit_aggregates.json,mean of HR over the 8 retained pools of selector deita_style
+tab1:cosda_equal_budget:LC,Table 1 / Table 10,LC,0.8363,results/extended_replay/audit_aggregates.json,mean of LC over the 8 retained pools of selector cosda_equal_budget
+tab1:cosda_equal_budget:Q,Table 1 / Table 10,Q,0.7177,results/extended_replay/audit_aggregates.json,mean of Q over the 8 retained pools of selector cosda_equal_budget
+tab1:cosda_equal_budget:C,Table 1 / Table 10,C,0.6861,results/extended_replay/audit_aggregates.json,mean of C over the 8 retained pools of selector cosda_equal_budget
+tab1:cosda_equal_budget:D,Table 1 / Table 10,D,0.6043,results/extended_replay/audit_aggregates.json,mean of D over the 8 retained pools of selector cosda_equal_budget
+tab1:cosda_equal_budget:H,Table 1 / Table 10,H,0.0582,results/extended_replay/audit_aggregates.json,mean of H over the 8 retained pools of selector cosda_equal_budget
+tab1:cosda_equal_budget:L,Table 1 / Table 10,L,0.0024,results/extended_replay/audit_aggregates.json,mean of L over the 8 retained pools of selector cosda_equal_budget
+tab1:cosda_equal_budget:HR,Table 1 / Table 10,HR,0.1094,results/extended_replay/audit_aggregates.json,mean of HR over the 8 retained pools of selector cosda_equal_budget
+tab1:cosda_rerank_v2:LC,Table 1 / Table 10,LC,0.9039,results/extended_replay/audit_aggregates.json,mean of LC over the 8 retained pools of selector cosda_rerank_v2
+tab1:cosda_rerank_v2:Q,Table 1 / Table 10,Q,0.7456,results/extended_replay/audit_aggregates.json,mean of Q over the 8 retained pools of selector cosda_rerank_v2
+tab1:cosda_rerank_v2:C,Table 1 / Table 10,C,0.6743,results/extended_replay/audit_aggregates.json,mean of C over the 8 retained pools of selector cosda_rerank_v2
+tab1:cosda_rerank_v2:D,Table 1 / Table 10,D,0.6022,results/extended_replay/audit_aggregates.json,mean of D over the 8 retained pools of selector cosda_rerank_v2
+tab1:cosda_rerank_v2:H,Table 1 / Table 10,H,0.0573,results/extended_replay/audit_aggregates.json,mean of H over the 8 retained pools of selector cosda_rerank_v2
+tab1:cosda_rerank_v2:L,Table 1 / Table 10,L,0.0030,results/extended_replay/audit_aggregates.json,mean of L over the 8 retained pools of selector cosda_rerank_v2
+tab1:cosda_rerank_v2:HR,Table 1 / Table 10,HR,0.1621,results/extended_replay/audit_aggregates.json,mean of HR over the 8 retained pools of selector cosda_rerank_v2
+tab1:alpagasus_hardreject:LC,Table 3 (LC col),LC,0.8450,results/extended_replay/audit_aggregates.json,mean of LC over the 8 retained pools of selector alpagasus_hardreject
 tab1:alpagasus_hardreject:Q,not reported in the paper,Q,0.7328,results/extended_replay/audit_aggregates.json,mean of Q over the 8 retained pools of selector alpagasus_hardreject
 tab1:alpagasus_hardreject:C,not reported in the paper,C,0.6980,results/extended_replay/audit_aggregates.json,mean of C over the 8 retained pools of selector alpagasus_hardreject
 tab1:alpagasus_hardreject:D,not reported in the paper,D,0.5974,results/extended_replay/audit_aggregates.json,mean of D over the 8 retained pools of selector alpagasus_hardreject
 tab1:alpagasus_hardreject:H,not reported in the paper,H,0.0649,results/extended_replay/audit_aggregates.json,mean of H over the 8 retained pools of selector alpagasus_hardreject
 tab1:alpagasus_hardreject:L,not reported in the paper,L,0.0037,results/extended_replay/audit_aggregates.json,mean of L over the 8 retained pools of selector alpagasus_hardreject
 tab1:alpagasus_hardreject:HR,not reported in the paper,HR,0.0000,results/extended_replay/audit_aggregates.json,mean of HR over the 8 retained pools of selector alpagasus_hardreject
-tab1:less_style:LC,Table 2 (LC col),LC,0.8488,results/extended_replay/audit_aggregates.json,mean of LC over the 8 retained pools of selector less_style
+tab1:less_style:LC,Table 3 (LC col),LC,0.8488,results/extended_replay/audit_aggregates.json,mean of LC over the 8 retained pools of selector less_style
 tab1:less_style:Q,not reported in the paper,Q,0.7088,results/extended_replay/audit_aggregates.json,mean of Q over the 8 retained pools of selector less_style
 tab1:less_style:C,not reported in the paper,C,0.6033,results/extended_replay/audit_aggregates.json,mean of C over the 8 retained pools of selector less_style
 tab1:less_style:D,not reported in the paper,D,0.5895,results/extended_replay/audit_aggregates.json,mean of D over the 8 retained pools of selector less_style
 tab1:less_style:H,not reported in the paper,H,0.0665,results/extended_replay/audit_aggregates.json,mean of H over the 8 retained pools of selector less_style
 tab1:less_style:L,not reported in the paper,L,0.0054,results/extended_replay/audit_aggregates.json,mean of L over the 8 retained pools of selector less_style
 tab1:less_style:HR,not reported in the paper,HR,0.4473,results/extended_replay/audit_aggregates.json,mean of HR over the 8 retained pools of selector less_style
-tab2:naive:f1_3seed,Table 2 (XLM-R col),macro_f1_mean,0.1705,"results/extended_replay/{grid_results,results_multiseed}.json","mean over 8 cells per seed, then mean over seeds 13/21/42"
-tab2:naive:f1_3seed_sd,Table 2 (XLM-R col),macro_f1_sd,0.0376,"results/extended_replay/{grid_results,results_multiseed}.json",population sd of the three per-seed means
-tab2:alpagasus_style:f1_3seed,Table 2 (XLM-R col),macro_f1_mean,0.1925,"results/extended_replay/{grid_results,results_multiseed}.json","mean over 8 cells per seed, then mean over seeds 13/21/42"
-tab2:alpagasus_style:f1_3seed_sd,Table 2 (XLM-R col),macro_f1_sd,0.0235,"results/extended_replay/{grid_results,results_multiseed}.json",population sd of the three per-seed means
-tab2:deita_style:f1_3seed,Table 2 (XLM-R col),macro_f1_mean,0.1743,"results/extended_replay/{grid_results,results_multiseed}.json","mean over 8 cells per seed, then mean over seeds 13/21/42"
-tab2:deita_style:f1_3seed_sd,Table 2 (XLM-R col),macro_f1_sd,0.0108,"results/extended_replay/{grid_results,results_multiseed}.json",population sd of the three per-seed means
-tab2:cosda_equal_budget:f1_3seed,Table 2 (XLM-R col),macro_f1_mean,0.1671,"results/extended_replay/{grid_results,results_multiseed}.json","mean over 8 cells per seed, then mean over seeds 13/21/42"
-tab2:cosda_equal_budget:f1_3seed_sd,Table 2 (XLM-R col),macro_f1_sd,0.0103,"results/extended_replay/{grid_results,results_multiseed}.json",population sd of the three per-seed means
-tab2:cosda_rerank_v2:f1_3seed,Table 2 (XLM-R col),macro_f1_mean,0.1570,"results/extended_replay/{grid_results,results_multiseed}.json","mean over 8 cells per seed, then mean over seeds 13/21/42"
-tab2:cosda_rerank_v2:f1_3seed_sd,Table 2 (XLM-R col),macro_f1_sd,0.0182,"results/extended_replay/{grid_results,results_multiseed}.json",population sd of the three per-seed means
-tab2:alpagasus_hardreject:f1_3seed,Table 2 (XLM-R col),macro_f1_mean,0.1636,"results/extended_replay/{grid_results,results_multiseed}.json","mean over 8 cells per seed, then mean over seeds 13/21/42"
-tab2:alpagasus_hardreject:f1_3seed_sd,Table 2 (XLM-R col),macro_f1_sd,0.0078,"results/extended_replay/{grid_results,results_multiseed}.json",population sd of the three per-seed means
-tab2:less_style:f1_3seed,Table 2 (XLM-R col),macro_f1_mean,0.1784,"results/extended_replay/{grid_results,results_multiseed}.json","mean over 8 cells per seed, then mean over seeds 13/21/42"
-tab2:less_style:f1_3seed_sd,Table 2 (XLM-R col),macro_f1_sd,0.0102,"results/extended_replay/{grid_results,results_multiseed}.json",population sd of the three per-seed means
-tab2:naive:afroxlmr,Table 2 (AfroXLMR col),macro_f1_mean,0.2656,results/extended_replay/results_afroxlmr.json,mean over 8 cells at seed 13
-tab2:alpagasus_style:afroxlmr,Table 2 (AfroXLMR col),macro_f1_mean,0.3213,results/extended_replay/results_afroxlmr.json,mean over 8 cells at seed 13
-tab2:deita_style:afroxlmr,Table 2 (AfroXLMR col),macro_f1_mean,0.3247,results/extended_replay/results_afroxlmr.json,mean over 8 cells at seed 13
-tab2:cosda_equal_budget:afroxlmr,Table 2 (AfroXLMR col),macro_f1_mean,0.3409,results/extended_replay/results_afroxlmr.json,mean over 8 cells at seed 13
-tab2:cosda_rerank_v2:afroxlmr,Table 2 (AfroXLMR col),macro_f1_mean,0.3436,results/extended_replay/results_afroxlmr.json,mean over 8 cells at seed 13
-tab2:alpagasus_hardreject:afroxlmr,Table 2 (AfroXLMR col),macro_f1_mean,0.3389,results/extended_replay/results_afroxlmr.json,mean over 8 cells at seed 13
-tab2:less_style:afroxlmr,Table 2 (AfroXLMR col),macro_f1_mean,0.3479,results/extended_replay/results_afroxlmr.json,mean over 8 cells at seed 13
-tab4:sent/amh:pool,Table 5 (HR pool),n_surviving,93,results/extended_replay/ablation_alpagasus_hardreject_selection.md,hard-reject-pass pool size
-tab4:sent/amh:AG,Table 5,macro_f1,0.2199,"results/extended_replay/{grid_results,results_multiseed}.json",mean over seeds 13/21/42
-tab4:sent/amh:AGHR,Table 5,macro_f1,0.1533,"results/extended_replay/{grid_results,results_multiseed}.json",mean over seeds 13/21/42
-tab4:sent/amh:delta,Table 5 / Figure 3,delta_macro_f1,-0.0665,"results/extended_replay/{grid_results,results_multiseed}.json",AG+HR minus AG
-tab4:sent/yor:pool,Table 5 (HR pool),n_surviving,138,results/extended_replay/ablation_alpagasus_hardreject_selection.md,hard-reject-pass pool size
-tab4:sent/yor:AG,Table 5,macro_f1,0.1843,"results/extended_replay/{grid_results,results_multiseed}.json",mean over seeds 13/21/42
-tab4:sent/yor:AGHR,Table 5,macro_f1,0.1844,"results/extended_replay/{grid_results,results_multiseed}.json",mean over seeds 13/21/42
-tab4:sent/yor:delta,Table 5 / Figure 3,delta_macro_f1,0.0001,"results/extended_replay/{grid_results,results_multiseed}.json",AG+HR minus AG
-tab4:sent/hau:pool,Table 5 (HR pool),n_surviving,153,results/extended_replay/ablation_alpagasus_hardreject_selection.md,hard-reject-pass pool size
-tab4:sent/hau:AG,Table 5,macro_f1,0.2682,"results/extended_replay/{grid_results,results_multiseed}.json",mean over seeds 13/21/42
-tab4:sent/hau:AGHR,Table 5,macro_f1,0.3308,"results/extended_replay/{grid_results,results_multiseed}.json",mean over seeds 13/21/42
-tab4:sent/hau:delta,Table 5 / Figure 3,delta_macro_f1,0.0626,"results/extended_replay/{grid_results,results_multiseed}.json",AG+HR minus AG
-tab4:sent/swa:pool,Table 5 (HR pool),n_surviving,131,results/extended_replay/ablation_alpagasus_hardreject_selection.md,hard-reject-pass pool size
-tab4:sent/swa:AG,Table 5,macro_f1,0.1555,"results/extended_replay/{grid_results,results_multiseed}.json",mean over seeds 13/21/42
-tab4:sent/swa:AGHR,Table 5,macro_f1,0.1555,"results/extended_replay/{grid_results,results_multiseed}.json",mean over seeds 13/21/42
-tab4:sent/swa:delta,Table 5 / Figure 3,delta_macro_f1,0.0000,"results/extended_replay/{grid_results,results_multiseed}.json",AG+HR minus AG
-tab4:news/amh:pool,Table 5 (HR pool),n_surviving,31,results/extended_replay/ablation_alpagasus_hardreject_selection.md,hard-reject-pass pool size
-tab4:news/amh:AG,Table 5,macro_f1,0.3868,"results/extended_replay/{grid_results,results_multiseed}.json",mean over seeds 13/21/42
-tab4:news/amh:AGHR,Table 5,macro_f1,0.1348,"results/extended_replay/{grid_results,results_multiseed}.json",mean over seeds 13/21/42
-tab4:news/amh:delta,Table 5 / Figure 3,delta_macro_f1,-0.2520,"results/extended_replay/{grid_results,results_multiseed}.json",AG+HR minus AG
-tab4:news/yor:pool,Table 5 (HR pool),n_surviving,87,results/extended_replay/ablation_alpagasus_hardreject_selection.md,hard-reject-pass pool size
-tab4:news/yor:AG,Table 5,macro_f1,0.0665,"results/extended_replay/{grid_results,results_multiseed}.json",mean over seeds 13/21/42
-tab4:news/yor:AGHR,Table 5,macro_f1,0.1326,"results/extended_replay/{grid_results,results_multiseed}.json",mean over seeds 13/21/42
-tab4:news/yor:delta,Table 5 / Figure 3,delta_macro_f1,0.0661,"results/extended_replay/{grid_results,results_multiseed}.json",AG+HR minus AG
-tab4:news/hau:pool,Table 5 (HR pool),n_surviving,50,results/extended_replay/ablation_alpagasus_hardreject_selection.md,hard-reject-pass pool size
-tab4:news/hau:AG,Table 5,macro_f1,0.1142,"results/extended_replay/{grid_results,results_multiseed}.json",mean over seeds 13/21/42
-tab4:news/hau:AGHR,Table 5,macro_f1,0.1399,"results/extended_replay/{grid_results,results_multiseed}.json",mean over seeds 13/21/42
-tab4:news/hau:delta,Table 5 / Figure 3,delta_macro_f1,0.0257,"results/extended_replay/{grid_results,results_multiseed}.json",AG+HR minus AG
-tab4:news/swa:pool,Table 5 (HR pool),n_surviving,81,results/extended_replay/ablation_alpagasus_hardreject_selection.md,hard-reject-pass pool size
-tab4:news/swa:AG,Table 5,macro_f1,0.1450,"results/extended_replay/{grid_results,results_multiseed}.json",mean over seeds 13/21/42
-tab4:news/swa:AGHR,Table 5,macro_f1,0.0778,"results/extended_replay/{grid_results,results_multiseed}.json",mean over seeds 13/21/42
-tab4:news/swa:delta,Table 5 / Figure 3,delta_macro_f1,-0.0672,"results/extended_replay/{grid_results,results_multiseed}.json",AG+HR minus AG
-tab4:mean:delta,Table 5 (mean row) / abstract,delta_macro_f1,-0.0289,"results/extended_replay/{grid_results,results_multiseed}.json",mean of the 8 per-cell deltas
+tab2:naive:f1_3seed,Table 3 (XLM-R col),macro_f1_mean,0.1705,"results/extended_replay/{grid_results,results_multiseed}.json","mean over 8 cells per seed, then mean over seeds 13/21/42"
+tab2:naive:f1_3seed_sd,Table 3 (XLM-R col),macro_f1_sd,0.0376,"results/extended_replay/{grid_results,results_multiseed}.json",population sd of the three per-seed means
+tab2:alpagasus_style:f1_3seed,Table 3 (XLM-R col),macro_f1_mean,0.1925,"results/extended_replay/{grid_results,results_multiseed}.json","mean over 8 cells per seed, then mean over seeds 13/21/42"
+tab2:alpagasus_style:f1_3seed_sd,Table 3 (XLM-R col),macro_f1_sd,0.0235,"results/extended_replay/{grid_results,results_multiseed}.json",population sd of the three per-seed means
+tab2:deita_style:f1_3seed,Table 3 (XLM-R col),macro_f1_mean,0.1743,"results/extended_replay/{grid_results,results_multiseed}.json","mean over 8 cells per seed, then mean over seeds 13/21/42"
+tab2:deita_style:f1_3seed_sd,Table 3 (XLM-R col),macro_f1_sd,0.0108,"results/extended_replay/{grid_results,results_multiseed}.json",population sd of the three per-seed means
+tab2:cosda_equal_budget:f1_3seed,Table 3 (XLM-R col),macro_f1_mean,0.1671,"results/extended_replay/{grid_results,results_multiseed}.json","mean over 8 cells per seed, then mean over seeds 13/21/42"
+tab2:cosda_equal_budget:f1_3seed_sd,Table 3 (XLM-R col),macro_f1_sd,0.0103,"results/extended_replay/{grid_results,results_multiseed}.json",population sd of the three per-seed means
+tab2:cosda_rerank_v2:f1_3seed,Table 3 (XLM-R col),macro_f1_mean,0.1570,"results/extended_replay/{grid_results,results_multiseed}.json","mean over 8 cells per seed, then mean over seeds 13/21/42"
+tab2:cosda_rerank_v2:f1_3seed_sd,Table 3 (XLM-R col),macro_f1_sd,0.0182,"results/extended_replay/{grid_results,results_multiseed}.json",population sd of the three per-seed means
+tab2:alpagasus_hardreject:f1_3seed,Table 3 (XLM-R col),macro_f1_mean,0.1636,"results/extended_replay/{grid_results,results_multiseed}.json","mean over 8 cells per seed, then mean over seeds 13/21/42"
+tab2:alpagasus_hardreject:f1_3seed_sd,Table 3 (XLM-R col),macro_f1_sd,0.0078,"results/extended_replay/{grid_results,results_multiseed}.json",population sd of the three per-seed means
+tab2:less_style:f1_3seed,Table 3 (XLM-R col),macro_f1_mean,0.1784,"results/extended_replay/{grid_results,results_multiseed}.json","mean over 8 cells per seed, then mean over seeds 13/21/42"
+tab2:less_style:f1_3seed_sd,Table 3 (XLM-R col),macro_f1_sd,0.0102,"results/extended_replay/{grid_results,results_multiseed}.json",population sd of the three per-seed means
+tab2:naive:afroxlmr,Table 3 (AfroXLMR col),macro_f1_mean,0.2656,results/extended_replay/results_afroxlmr.json,mean over 8 cells at seed 13
+tab2:alpagasus_style:afroxlmr,Table 3 (AfroXLMR col),macro_f1_mean,0.3213,results/extended_replay/results_afroxlmr.json,mean over 8 cells at seed 13
+tab2:deita_style:afroxlmr,Table 3 (AfroXLMR col),macro_f1_mean,0.3247,results/extended_replay/results_afroxlmr.json,mean over 8 cells at seed 13
+tab2:cosda_equal_budget:afroxlmr,Table 3 (AfroXLMR col),macro_f1_mean,0.3409,results/extended_replay/results_afroxlmr.json,mean over 8 cells at seed 13
+tab2:cosda_rerank_v2:afroxlmr,Table 3 (AfroXLMR col),macro_f1_mean,0.3436,results/extended_replay/results_afroxlmr.json,mean over 8 cells at seed 13
+tab2:alpagasus_hardreject:afroxlmr,Table 3 (AfroXLMR col),macro_f1_mean,0.3389,results/extended_replay/results_afroxlmr.json,mean over 8 cells at seed 13
+tab2:less_style:afroxlmr,Table 3 (AfroXLMR col),macro_f1_mean,0.3479,results/extended_replay/results_afroxlmr.json,mean over 8 cells at seed 13
+tab4:sent/amh:pool,Table 6 (HR pool),n_surviving,93,results/extended_replay/ablation_alpagasus_hardreject_selection.md,hard-reject-pass pool size
+tab4:sent/amh:AG,Table 6,macro_f1,0.2199,"results/extended_replay/{grid_results,results_multiseed}.json",mean over seeds 13/21/42
+tab4:sent/amh:AGHR,Table 6,macro_f1,0.1533,"results/extended_replay/{grid_results,results_multiseed}.json",mean over seeds 13/21/42
+tab4:sent/amh:delta,Table 6 / Figure 3,delta_macro_f1,-0.0665,"results/extended_replay/{grid_results,results_multiseed}.json",AG+HR minus AG
+tab4:sent/yor:pool,Table 6 (HR pool),n_surviving,138,results/extended_replay/ablation_alpagasus_hardreject_selection.md,hard-reject-pass pool size
+tab4:sent/yor:AG,Table 6,macro_f1,0.1843,"results/extended_replay/{grid_results,results_multiseed}.json",mean over seeds 13/21/42
+tab4:sent/yor:AGHR,Table 6,macro_f1,0.1844,"results/extended_replay/{grid_results,results_multiseed}.json",mean over seeds 13/21/42
+tab4:sent/yor:delta,Table 6 / Figure 3,delta_macro_f1,0.0001,"results/extended_replay/{grid_results,results_multiseed}.json",AG+HR minus AG
+tab4:sent/hau:pool,Table 6 (HR pool),n_surviving,153,results/extended_replay/ablation_alpagasus_hardreject_selection.md,hard-reject-pass pool size
+tab4:sent/hau:AG,Table 6,macro_f1,0.2682,"results/extended_replay/{grid_results,results_multiseed}.json",mean over seeds 13/21/42
+tab4:sent/hau:AGHR,Table 6,macro_f1,0.3308,"results/extended_replay/{grid_results,results_multiseed}.json",mean over seeds 13/21/42
+tab4:sent/hau:delta,Table 6 / Figure 3,delta_macro_f1,0.0626,"results/extended_replay/{grid_results,results_multiseed}.json",AG+HR minus AG
+tab4:sent/swa:pool,Table 6 (HR pool),n_surviving,131,results/extended_replay/ablation_alpagasus_hardreject_selection.md,hard-reject-pass pool size
+tab4:sent/swa:AG,Table 6,macro_f1,0.1555,"results/extended_replay/{grid_results,results_multiseed}.json",mean over seeds 13/21/42
+tab4:sent/swa:AGHR,Table 6,macro_f1,0.1555,"results/extended_replay/{grid_results,results_multiseed}.json",mean over seeds 13/21/42
+tab4:sent/swa:delta,Table 6 / Figure 3,delta_macro_f1,0.0000,"results/extended_replay/{grid_results,results_multiseed}.json",AG+HR minus AG
+tab4:news/amh:pool,Table 6 (HR pool),n_surviving,31,results/extended_replay/ablation_alpagasus_hardreject_selection.md,hard-reject-pass pool size
+tab4:news/amh:AG,Table 6,macro_f1,0.3868,"results/extended_replay/{grid_results,results_multiseed}.json",mean over seeds 13/21/42
+tab4:news/amh:AGHR,Table 6,macro_f1,0.1348,"results/extended_replay/{grid_results,results_multiseed}.json",mean over seeds 13/21/42
+tab4:news/amh:delta,Table 6 / Figure 3,delta_macro_f1,-0.2520,"results/extended_replay/{grid_results,results_multiseed}.json",AG+HR minus AG
+tab4:news/yor:pool,Table 6 (HR pool),n_surviving,87,results/extended_replay/ablation_alpagasus_hardreject_selection.md,hard-reject-pass pool size
+tab4:news/yor:AG,Table 6,macro_f1,0.0665,"results/extended_replay/{grid_results,results_multiseed}.json",mean over seeds 13/21/42
+tab4:news/yor:AGHR,Table 6,macro_f1,0.1326,"results/extended_replay/{grid_results,results_multiseed}.json",mean over seeds 13/21/42
+tab4:news/yor:delta,Table 6 / Figure 3,delta_macro_f1,0.0661,"results/extended_replay/{grid_results,results_multiseed}.json",AG+HR minus AG
+tab4:news/hau:pool,Table 6 (HR pool),n_surviving,50,results/extended_replay/ablation_alpagasus_hardreject_selection.md,hard-reject-pass pool size
+tab4:news/hau:AG,Table 6,macro_f1,0.1142,"results/extended_replay/{grid_results,results_multiseed}.json",mean over seeds 13/21/42
+tab4:news/hau:AGHR,Table 6,macro_f1,0.1399,"results/extended_replay/{grid_results,results_multiseed}.json",mean over seeds 13/21/42
+tab4:news/hau:delta,Table 6 / Figure 3,delta_macro_f1,0.0257,"results/extended_replay/{grid_results,results_multiseed}.json",AG+HR minus AG
+tab4:news/swa:pool,Table 6 (HR pool),n_surviving,81,results/extended_replay/ablation_alpagasus_hardreject_selection.md,hard-reject-pass pool size
+tab4:news/swa:AG,Table 6,macro_f1,0.1450,"results/extended_replay/{grid_results,results_multiseed}.json",mean over seeds 13/21/42
+tab4:news/swa:AGHR,Table 6,macro_f1,0.0778,"results/extended_replay/{grid_results,results_multiseed}.json",mean over seeds 13/21/42
+tab4:news/swa:delta,Table 6 / Figure 3,delta_macro_f1,-0.0672,"results/extended_replay/{grid_results,results_multiseed}.json",AG+HR minus AG
+tab4:mean:delta,Table 6 (mean row) / abstract,delta_macro_f1,-0.0289,"results/extended_replay/{grid_results,results_multiseed}.json",mean of the 8 per-cell deltas
 analysis:delta_excl_newsamh,Section 5.1,delta_macro_f1,0.0030,"results/extended_replay/{grid_results,results_multiseed}.json",mean delta over the 7 non-amh-news cells
 analysis:delta_fullpool,Section 5.1,delta_macro_f1,-0.0008,"results/extended_replay/{grid_results,results_multiseed}.json",mean delta over the 6 unstarved cells
-tab3:qwen14b:n,Table 4,n_candidates_scored,1521,results/extended_replay/judge2_qwen14b.json,candidates re-scored by this judge
-tab3:phi35:n,Table 4,n_candidates_scored,1502,results/extended_replay/judge2_phi35.json,candidates re-scored by this judge
+tab3:qwen14b:n,Table 5,n_candidates_scored,1521,results/extended_replay/judge2_qwen14b.json,candidates re-scored by this judge
+tab3:phi35:n,Table 5,n_candidates_scored,1502,results/extended_replay/judge2_phi35.json,candidates re-scored by this judge

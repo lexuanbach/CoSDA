@@ -6,7 +6,7 @@ paper's numbers are the ones shipped here. Regenerate with `scripts/make_provena
 | file | bytes | sha256 (first 16) |
 |---|---:|---|
 | `results/extended_replay/ANALYSIS_OUTPUT.txt` | 3148 | `c1f8042587a1ce3e` |
-| `results/extended_replay/ablation_alpagasus_hardreject_selection.md` | 1296 | `deb48b5bfffcd209` |
+| `results/extended_replay/ablation_alpagasus_hardreject_selection.md` | 1404 | `b4415f21a9677f9d` |
 | `results/extended_replay/audit_aggregates.json` | 1622 | `b0f77b9636aef342` |
 | `results/extended_replay/grid_results.json` | 9831 | `6b7fc4cfb2b3f94a` |
 | `results/extended_replay/judge2_phi35.json` | 38096 | `b15fcac125775095` |
@@ -18,7 +18,7 @@ paper's numbers are the ones shipped here. Regenerate with `scripts/make_provena
 | `results/main_replay/MAIN_REPLAY_OUTPUT.txt` | 1416 | `4c5498352498b806` |
 | `results/main_replay/aws_vllm_revised_select1_v2_full_20260521_analysis_rows.csv` | 21772 | `c66859491fb40d32` |
 | `results/main_replay/aws_vllm_revised_select1_v2_pilot_20260521_analysis_rows.csv` | 10159 | `c28a7dcff6442477` |
-| `results/main_replay/claim_ledger.csv` | 16743 | `9b6fb833f35ecff9` |
+| `results/main_replay/claim_ledger.csv` | 16778 | `ffc1982f9b60f20c` |
 | `results/main_replay/cosda_full_v2_paper_summary_20260521.csv` | 1105 | `f0b64cb769b7948c` |
 | `results/main_replay/cosda_paper_tables_20260521.tex` | 1230 | `4ea50bf2b6bad9a1` |
 | `runs/select1_seed13/news_topic_classification/amh/b64_m3_s13/audit.jsonl` | 574598 | `da478104c609e794` |

@@ -42,31 +42,31 @@ def add(cid, where, metric, value, src, how):
 IN_T1 = {"naive","alpagasus_style","deita_style","cosda_equal_budget","cosda_rerank_v2"}
 for b, a in audit.items():
     for ch in ("LC","Q","C","D","H","L","HR"):
-        where = ("Table 1 / Table 9" if b in IN_T1
-                 else ("Table 2 (LC col)" if ch == "LC" else "not reported in the paper"))
+        where = ("Table 1 / Table 10" if b in IN_T1
+                 else ("Table 3 (LC col)" if ch == "LC" else "not reported in the paper"))
         if ch not in a: continue
         add(f"tab1:{b}:{ch}", where, ch, a[ch],
             "results/extended_replay/audit_aggregates.json",
             f"mean of {ch} over the 8 retained pools of selector {b}")
 
-# --- Table 2: 3-seed XLM-R means and AfroXLMR ---
+# --- Table 3: 3-seed XLM-R means and AfroXLMR ---
 d = by_seed(rows)
 for b in NAME:
     per = [mean(d[s][b]) for s in SEEDS]
-    add(f"tab2:{b}:f1_3seed", "Table 2 (XLM-R col)", "macro_f1_mean", mean(per),
+    add(f"tab2:{b}:f1_3seed", "Table 3 (XLM-R col)", "macro_f1_mean", mean(per),
         "results/extended_replay/{grid_results,results_multiseed}.json",
         "mean over 8 cells per seed, then mean over seeds 13/21/42")
-    add(f"tab2:{b}:f1_3seed_sd", "Table 2 (XLM-R col)", "macro_f1_sd", pstdev(per),
+    add(f"tab2:{b}:f1_3seed_sd", "Table 3 (XLM-R col)", "macro_f1_sd", pstdev(per),
         "results/extended_replay/{grid_results,results_multiseed}.json",
         "population sd of the three per-seed means")
 af = defaultdict(list)
 for r in afro:
     if r.get("macro_f1") is not None: af[r["baseline"]].append(r["macro_f1"])
 for b, v in af.items():
-    add(f"tab2:{b}:afroxlmr", "Table 2 (AfroXLMR col)", "macro_f1_mean", mean(v),
+    add(f"tab2:{b}:afroxlmr", "Table 3 (AfroXLMR col)", "macro_f1_mean", mean(v),
         "results/extended_replay/results_afroxlmr.json", "mean over 8 cells at seed 13")
 
-# --- Table 5 / Figure 3: AlpaGasus+HR ablation ---
+# --- Table 6 / Figure 3: AlpaGasus+HR ablation ---
 # Recomputed from the shipped audit records rather than hard-coded, so a stale
 # literal cannot silently move a paper number.
 import glob
@@ -82,15 +82,15 @@ deltas = {}
 for k, pool in HRPOOL.items():
     ag = mean(cell[(k[0],k[1],"alpagasus_style")]); hr = mean(cell[(k[0],k[1],"alpagasus_hardreject")])
     deltas[k] = hr - ag
-    add(f"tab4:{k[0]}/{k[1]}:pool", "Table 5 (HR pool)", "n_surviving", pool,
+    add(f"tab4:{k[0]}/{k[1]}:pool", "Table 6 (HR pool)", "n_surviving", pool,
         "results/extended_replay/ablation_alpagasus_hardreject_selection.md", "hard-reject-pass pool size")
-    add(f"tab4:{k[0]}/{k[1]}:AG", "Table 5", "macro_f1", ag,
+    add(f"tab4:{k[0]}/{k[1]}:AG", "Table 6", "macro_f1", ag,
         "results/extended_replay/{grid_results,results_multiseed}.json", "mean over seeds 13/21/42")
-    add(f"tab4:{k[0]}/{k[1]}:AGHR", "Table 5", "macro_f1", hr,
+    add(f"tab4:{k[0]}/{k[1]}:AGHR", "Table 6", "macro_f1", hr,
         "results/extended_replay/{grid_results,results_multiseed}.json", "mean over seeds 13/21/42")
-    add(f"tab4:{k[0]}/{k[1]}:delta", "Table 5 / Figure 3", "delta_macro_f1", hr - ag,
+    add(f"tab4:{k[0]}/{k[1]}:delta", "Table 6 / Figure 3", "delta_macro_f1", hr - ag,
         "results/extended_replay/{grid_results,results_multiseed}.json", "AG+HR minus AG")
-add("tab4:mean:delta", "Table 5 (mean row) / abstract", "delta_macro_f1", mean(deltas.values()),
+add("tab4:mean:delta", "Table 6 (mean row) / abstract", "delta_macro_f1", mean(deltas.values()),
     "results/extended_replay/{grid_results,results_multiseed}.json", "mean of the 8 per-cell deltas")
 add("analysis:delta_excl_newsamh", "Section 5.1", "delta_macro_f1",
     mean([v for k,v in deltas.items() if k != ("news","amh")]),
@@ -99,9 +99,9 @@ add("analysis:delta_fullpool", "Section 5.1", "delta_macro_f1",
     mean([v for k,v in deltas.items() if HRPOOL[k] >= 64]),
     "results/extended_replay/{grid_results,results_multiseed}.json", "mean delta over the 6 unstarved cells")
 
-# --- Table 4: multi-judge LC ---
+# --- Table 5: multi-judge LC ---
 for tag, fn in (("qwen14b","judge2_qwen14b.json"), ("phi35","judge2_phi35.json")):
-    add(f"tab3:{tag}:n", "Table 4", "n_candidates_scored",
+    add(f"tab3:{tag}:n", "Table 5", "n_candidates_scored",
         len([v for v in json.load(open(RES / fn)).values() if v is not None]),
         f"results/extended_replay/{fn}", "candidates re-scored by this judge")
 
