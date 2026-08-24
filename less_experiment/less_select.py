@@ -1,22 +1,25 @@
 #!/usr/bin/env python3
 """LESS (Xia et al., ICML 2024) data selection, implemented for the CoSDA replay.
 
-Follows Definition 3.1 and Sec. 4.1-4.2 of the paper:
+Follows LESS Definition 3.1 and LESS Sec. 4.1-4.2. Every section, table,
+definition, and appendix number below refers to Xia et al., not to the CoSDA
+paper:
 
   Stage 1  Warmup-train a selection model on the candidate pool with LoRA and
            AdamW for N=4 epochs, checkpointing model + optimizer state each epoch
-           (Sec. 4.1 Step 1; D_warmup = D is the paper's best setting, Table 5).
+           (LESS Sec. 4.1 Step 1; D_warmup = D is the LESS paper's best
+           setting, LESS Table 5).
   Stage 2  Per-example gradients at batch size 1 over the trainable (LoRA + head)
-           parameters (Sec. 4.1 Step 1; Appendix E).
+           parameters (LESS Sec. 4.1 Step 1; LESS Appendix E).
   Stage 3  Adam preconditioning in FULL parameter space, using the checkpoint's
-           stored moments plus the candidate's own gradient (Sec. 3.1):
+           stored moments plus the candidate's own gradient (LESS Sec. 3.1):
                m' = b1*m + (1-b1)*g ;  v' = b2*v + (1-b2)*g^2 ;  G = m'/sqrt(v'+eps)
   Stage 4  Validation side is the PLAIN gradient at the same checkpoint
-           (Definition 3.1; the reference repo forces --gradient_type sgd).
+           (LESS Definition 3.1; the reference repo forces --gradient_type sgd).
   Score    Sum over checkpoints of avg-epoch-LR-weighted cosine, then global top-k.
 
-We compute Definition 3.1 exactly in R^P and omit the random projection, which the
-paper introduces purely for efficiency (Sec. 4.1 Step 2); P is ~0.9M here.
+We compute LESS Definition 3.1 exactly in R^P and omit the random projection, which
+the LESS paper introduces purely for efficiency (LESS Sec. 4.1 Step 2); P is ~0.9M here.
 """
 import argparse, json, math, os, os
 from pathlib import Path
@@ -146,7 +149,7 @@ def main():
         model.load_state_dict(state)
         m_t = torch.cat([m for m, _ in mv]); v_t = torch.cat([v for _, v in mv])
 
-        # validation side: PLAIN gradient (Definition 3.1)
+        # validation side: PLAIN gradient (LESS Definition 3.1)
         model.eval(); opt.zero_grad()
         for i in range(0, len(devset), 8):
             ch = devset[i:i + 8]
