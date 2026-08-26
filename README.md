@@ -141,6 +141,13 @@ python3 scripts/rehydrate_gold.py     # verifies every record against the shippe
 
 Nothing in `reproduce.sh` needs the gold text; it is required only to re-run training.
 
+Rehydration goes to the upstream datasets, so it can drift if an upstream loader changes.
+For that case the exact snapshot this work downloaded (May 2026) is mirrored, **gated**, at
+[`lexuanbach/cosda-source-corpora`](https://huggingface.co/datasets/lexuanbach/cosda-source-corpora).
+It is access-on-request rather than open precisely because of the upstream rights above,
+and it is a mirror of third-party corpora, not a release of ours — prefer the upstream
+sources unless you specifically need this snapshot.
+
 ## Known scope limits
 
 - No native speaker of the four target languages reviewed the generated text. Every
